@@ -1,0 +1,1155 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-15T12:33:54-03:00",
+    "source": "REAL — Salesforce via MCP (Fase 9)",
+    "period": "Agosto/2026 (parcial — dados até 12/08)"
+  },
+  "v1MetaVendedor": {
+    "ano": [
+      {
+        "vendedor": "Felipe Lobato",
+        "pct": 1.0393
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "pct": 0.7945
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "pct": 0.7555
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "pct": 0.6441
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "pct": 0.6434
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "pct": 0.6302
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "pct": 0.6249
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "pct": 0.6014
+      },
+      {
+        "vendedor": "André Zucchi",
+        "pct": 0.5412
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "pct": 0.5399
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "pct": 0.393
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "pct": 0.3895
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "pct": 0.3768
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "pct": 0.2036
+      }
+    ],
+    "mesAtual": [
+      {
+        "vendedor": "Arthur Lodi",
+        "pct": 0.7065
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "pct": 0.5427
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "pct": 0.3707
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "pct": 0.3453
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "pct": 0.2802
+      },
+      {
+        "vendedor": "Felipe Lobato",
+        "pct": 0.2388
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "pct": 0.1386
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "pct": 0.0962
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "pct": 0.0577
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "pct": 0.0
+      },
+      {
+        "vendedor": "Ana Amado",
+        "pct": 0.0
+      },
+      {
+        "vendedor": "André Zucchi",
+        "pct": 0.0
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "pct": 0.0
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "pct": 0.0
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "pct": 0.0
+      }
+    ]
+  },
+  "v2Ofertas": {
+    "_nota": "Total de ofertas enviadas no mês vigente (agosto/2026), independente de direcionamento.",
+    "totalMes": 1004,
+    "porVendedor": [
+      {
+        "vendedor": "Felipe Lobato",
+        "qtde": 211
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "qtde": 195
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "qtde": 125
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "qtde": 93
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "qtde": 83
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "qtde": 54
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtde": 53
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "qtde": 49
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "qtde": 38
+      },
+      {
+        "vendedor": "Ana Amado",
+        "qtde": 37
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "qtde": 35
+      },
+      {
+        "vendedor": "André Zucchi",
+        "qtde": 17
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "qtde": 7
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "qtde": 6
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "qtde": 1
+      }
+    ]
+  },
+  "v3Containers": {
+    "qtdeSemana": 62,
+    "porDia": [
+      {
+        "dia": "10/08",
+        "qtde": 9
+      },
+      {
+        "dia": "11/08",
+        "qtde": 12
+      },
+      {
+        "dia": "12/08",
+        "qtde": 13
+      },
+      {
+        "dia": "13/08",
+        "qtde": 15
+      },
+      {
+        "dia": "14/08",
+        "qtde": 13
+      }
+    ]
+  },
+  "v4Reservas": {
+    "anoQtdeItens": 12009,
+    "anoM2": 51371.462,
+    "_nota": "Snapshot atual + % sobre meta de agosto/2026 por vendedor.",
+    "porVendedorPctMetaMes": [
+      {
+        "vendedor": "Pedro Ribeiro",
+        "pct": 2.111
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "pct": 1.3988
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "pct": 1.277
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "pct": 1.2402
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "pct": 1.0185
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "pct": 1.0135
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "pct": 1.0082
+      },
+      {
+        "vendedor": "Felipe Lobato",
+        "pct": 0.9493
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "pct": 0.9279
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "pct": 0.9186
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "pct": 0.6808
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "pct": 0.5361
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "pct": 0.3703
+      },
+      {
+        "vendedor": "André Zucchi",
+        "pct": 0.2419
+      }
+    ]
+  },
+  "v4Taj": {
+    "_nota": "Faturado do mês OU status em carteira + Classificação Premium/Standard/Commercial. Validado exato.",
+    "ano": [
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "pctValor": 0.5609,
+        "pctQtde": 0.506
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "pctValor": 0.5468,
+        "pctQtde": 0.4083
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "pctValor": 0.5263,
+        "pctQtde": 0.4184
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "pctValor": 0.518,
+        "pctQtde": 0.4567
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "pctValor": 0.4825,
+        "pctQtde": 0.3671
+      },
+      {
+        "vendedor": "André Zucchi",
+        "pctValor": 0.463,
+        "pctQtde": 0.5005
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "pctValor": 0.4442,
+        "pctQtde": 0.307
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "pctValor": 0.4349,
+        "pctQtde": 0.3874
+      },
+      {
+        "vendedor": "Felipe Lobato",
+        "pctValor": 0.4332,
+        "pctQtde": 0.4592
+      },
+      {
+        "vendedor": "Ana Amado",
+        "pctValor": 0.4275,
+        "pctQtde": 0.3783
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "pctValor": 0.4269,
+        "pctQtde": 0.2589
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "pctValor": 0.4126,
+        "pctQtde": 0.3781
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "pctValor": 0.3795,
+        "pctQtde": 0.3759
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "pctValor": 0.372,
+        "pctQtde": 0.2279
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "pctValor": 0.3511,
+        "pctQtde": 0.3375
+      }
+    ],
+    "mesAtual": [
+      {
+        "vendedor": "André Zucchi",
+        "pctValor": 0.706,
+        "pctQtde": 0.7452
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "pctValor": 0.6994,
+        "pctQtde": 0.6514
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "pctValor": 0.6556,
+        "pctQtde": 0.5866
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "pctValor": 0.651,
+        "pctQtde": 0.6433
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "pctValor": 0.4861,
+        "pctQtde": 0.4482
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "pctValor": 0.4806,
+        "pctQtde": 0.3666
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "pctValor": 0.4567,
+        "pctQtde": 0.3979
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "pctValor": 0.4518,
+        "pctQtde": 0.3675
+      },
+      {
+        "vendedor": "Felipe Lobato",
+        "pctValor": 0.4166,
+        "pctQtde": 0.3614
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "pctValor": 0.4135,
+        "pctQtde": 0.3985
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "pctValor": 0.3205,
+        "pctQtde": 0.2186
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "pctValor": 0.2933,
+        "pctQtde": 0.1669
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "pctValor": 0.1875,
+        "pctQtde": 0.1737
+      },
+      {
+        "vendedor": "Ana Amado",
+        "pctValor": 0.1774,
+        "pctQtde": 0.185
+      }
+    ]
+  },
+  "v5Recebimento": {
+    "pctMeta": 0.2953,
+    "valorValidado": 2243922.93,
+    "meta": 7600000.0,
+    "ritmo": {
+      "totalDiasUteis": 21,
+      "diasUteisTranscorridos": 9,
+      "metaDiaria": 361904.76,
+      "recebimentoEsperado": 3257142.86,
+      "pctEsperado": 0.4286,
+      "desvioUsd": -1013219.93,
+      "desvioPP": -13.33,
+      "status": "Abaixo do esperado"
+    }
+  },
+  "r1Atividades": {
+    "pendentes": 33,
+    "atrasadas": 23,
+    "porVendedor": [
+      {
+        "vendedor": "Matheus Felipe",
+        "pendentes": 12,
+        "atrasadas": 8
+      },
+      {
+        "vendedor": "Luiza Alvarenga",
+        "pendentes": 6,
+        "atrasadas": 4
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "pendentes": 6,
+        "atrasadas": 3
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "pendentes": 3,
+        "atrasadas": 3
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "pendentes": 2,
+        "atrasadas": 1
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "pendentes": 1,
+        "atrasadas": 1
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "pendentes": 1,
+        "atrasadas": 1
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "pendentes": 1,
+        "atrasadas": 1
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "pendentes": 1,
+        "atrasadas": 1
+      }
+    ]
+  },
+  "r2Taj": {
+    "qtdeItens": 110,
+    "mediaDias": 13.8,
+    "porVendedor": [
+      {
+        "vendedor": "Arthur Lodi",
+        "qtde": 23,
+        "mediaDias": 15.5
+      },
+      {
+        "vendedor": "Ana Amado",
+        "qtde": 14,
+        "mediaDias": 8.0
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "qtde": 14,
+        "mediaDias": 20.0
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "qtde": 13,
+        "mediaDias": 11.0
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtde": 10,
+        "mediaDias": 17.9
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "qtde": 8,
+        "mediaDias": 8.0
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "qtde": 6,
+        "mediaDias": 5.0
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "qtde": 6,
+        "mediaDias": 8.0
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "qtde": 4,
+        "mediaDias": 8.0
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "qtde": 4,
+        "mediaDias": 8.0
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "qtde": 3,
+        "mediaDias": 37.0
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "qtde": 3,
+        "mediaDias": 30.0
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "qtde": 2,
+        "mediaDias": 21.0
+      }
+    ]
+  },
+  "destaqueMeta": [],
+  "campanhaDirecionamento": {
+    "totalDirecionados": 195,
+    "totalAvailable": 162,
+    "totalAccepted": 21,
+    "totalApproval": 7,
+    "totalSold": 5,
+    "pctAtivacao": 0.1333,
+    "vendedores": [
+      {
+        "vendedor": "Felipe Lobato",
+        "available": 0,
+        "accepted": 4,
+        "approval": 7,
+        "sold": 4,
+        "total": 15,
+        "status": "Com resultado",
+        "qtdContasOfertas": 29,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "available": 13,
+        "accepted": 1,
+        "approval": 0,
+        "sold": 1,
+        "total": 15,
+        "status": "Com resultado",
+        "qtdContasOfertas": 32,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "available": 10,
+        "accepted": 5,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Em andamento",
+        "qtdContasOfertas": 23,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "available": 12,
+        "accepted": 3,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Em andamento",
+        "qtdContasOfertas": 45,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "available": 12,
+        "accepted": 3,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Em andamento",
+        "qtdContasOfertas": 25,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "available": 13,
+        "accepted": 2,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Em andamento",
+        "qtdContasOfertas": 93,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "available": 13,
+        "accepted": 2,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Em andamento",
+        "qtdContasOfertas": 17,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "available": 14,
+        "accepted": 1,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Em andamento",
+        "qtdContasOfertas": 42,
+        "qtdBundlesOfertados": 13
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "available": 15,
+        "accepted": 0,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Sem resultado",
+        "qtdContasOfertas": 31,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "available": 15,
+        "accepted": 0,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Sem resultado",
+        "qtdContasOfertas": 38,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "available": 15,
+        "accepted": 0,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Sem resultado",
+        "qtdContasOfertas": 86,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "available": 15,
+        "accepted": 0,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Sem resultado",
+        "qtdContasOfertas": 111,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "André Zucchi",
+        "available": 0,
+        "accepted": 0,
+        "approval": 0,
+        "sold": 0,
+        "total": 0,
+        "status": "Sem resultado",
+        "qtdContasOfertas": 0,
+        "qtdBundlesOfertados": 0
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "available": 0,
+        "accepted": 0,
+        "approval": 0,
+        "sold": 0,
+        "total": 0,
+        "status": "Sem resultado",
+        "qtdContasOfertas": 0,
+        "qtdBundlesOfertados": 0
+      },
+      {
+        "vendedor": "Ana Amado",
+        "available": 15,
+        "accepted": 0,
+        "approval": 0,
+        "sold": 0,
+        "total": 15,
+        "status": "Sem resultado",
+        "qtdContasOfertas": 14,
+        "qtdBundlesOfertados": 15
+      }
+    ]
+  },
+  "_todosJulhoParaReferencia": [
+    {
+      "vendedor": "Ignacia Acevedo",
+      "pct": 0.9052
+    },
+    {
+      "vendedor": "Felipe Lobato",
+      "pct": 0.8332
+    },
+    {
+      "vendedor": "Pedro Ribeiro",
+      "pct": 0.8196
+    },
+    {
+      "vendedor": "Livia Ventorim",
+      "pct": 0.7791
+    },
+    {
+      "vendedor": "Marcelino Camata",
+      "pct": 0.7615
+    },
+    {
+      "vendedor": "Thalys Eccel Kill",
+      "pct": 0.7254
+    },
+    {
+      "vendedor": "Lara Roncetti",
+      "pct": 0.7183
+    },
+    {
+      "vendedor": "Arthur Lodi",
+      "pct": 0.4131
+    },
+    {
+      "vendedor": "Diego Bitencourt",
+      "pct": 0.4044
+    },
+    {
+      "vendedor": "Renzo Carletti",
+      "pct": 0.3421
+    },
+    {
+      "vendedor": "Manon Fernandez",
+      "pct": 0.2976
+    },
+    {
+      "vendedor": "Enzo Ziviani",
+      "pct": 0.0948
+    },
+    {
+      "vendedor": "André Zucchi",
+      "pct": 0.0693
+    },
+    {
+      "vendedor": "Eduardo Gomes",
+      "pct": 0.0
+    }
+  ],
+  "destaqueContainerTop3": [
+    {
+      "posicao": 1,
+      "vendedor": "Arthur Lodi",
+      "valorFmt": "117.966,60"
+    },
+    {
+      "posicao": 2,
+      "vendedor": "Thalys Eccel Kill",
+      "valorFmt": "101.877,47"
+    },
+    {
+      "posicao": 3,
+      "vendedor": "Livia Ventorim",
+      "valorFmt": "98.404,99"
+    }
+  ],
+  "rotinaVendedor": {
+    "etapas": [
+      "Reservado",
+      "Aguardando Composição",
+      "Aguardando Inspeção",
+      "Proforma Assinada",
+      "Mudança de Acabamento"
+    ],
+    "vendedores": [
+      {
+        "vendedor": "Ana Amado",
+        "qtdes": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 2
+      },
+      {
+        "vendedor": "André Zucchi",
+        "qtdes": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "total": 2
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "qtdes": [
+          3,
+          2,
+          2,
+          8,
+          0
+        ],
+        "total": 15
+      },
+      {
+        "vendedor": "Diego Bitencourt",
+        "qtdes": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "total": 3
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "qtdes": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 1
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "qtdes": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "total": 2
+      },
+      {
+        "vendedor": "Felipe Lobato",
+        "qtdes": [
+          6,
+          0,
+          1,
+          2,
+          0
+        ],
+        "total": 9
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "qtdes": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 1
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtdes": [
+          9,
+          3,
+          0,
+          2,
+          0
+        ],
+        "total": 14
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "qtdes": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "total": 2
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "qtdes": [
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        "total": 3
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "qtdes": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "total": 1
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "qtdes": [
+          0,
+          0,
+          1,
+          3,
+          0
+        ],
+        "total": 4
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "qtdes": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "qtdes": [
+          5,
+          0,
+          0,
+          2,
+          0
+        ],
+        "total": 7
+      }
+    ],
+    "_nota": "Apenas oportunidades/pedidos com indicador de problema associado (Indicadores preenchido) e (Cliente com título vencido OU Ações do Indicador preenchido)."
+  },
+  "marketing": {
+    "totalSemFoto": 17,
+    "porProduto": [
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "qtde": 8
+      },
+      {
+        "produto": "Raffinato | Premium | 2cm",
+        "qtde": 1
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "qtde": 8
+      }
+    ],
+    "registros": [
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "bloco": "221020",
+        "code": "BD00206996",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "bloco": "221016",
+        "code": "BD00206516",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "bloco": "221016",
+        "code": "BD00207015",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "bloco": "221016",
+        "code": "BD00206518",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "bloco": "221020",
+        "code": "BD00206998",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "bloco": "221020",
+        "code": "BD00206999",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "bloco": "221020",
+        "code": "BD00206997",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Crystal Catedral | Premium | 3cm",
+        "bloco": "221016",
+        "code": "BD00206517",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Raffinato | Premium | 2cm",
+        "bloco": "209049",
+        "code": "BD00206968",
+        "localizacao": "G5A040",
+        "situacao": "Blocked",
+        "dataCriacao": "11/08/2026"
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "bloco": "220823",
+        "code": "BD00206506",
+        "localizacao": "G5B038",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "bloco": "220823",
+        "code": "BD00206503",
+        "localizacao": "G5B038",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "bloco": "220823",
+        "code": "BD00206505",
+        "localizacao": "G5B040",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "bloco": "220823",
+        "code": "BD00206500",
+        "localizacao": "G5B040",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "bloco": "220823",
+        "code": "BD00206507",
+        "localizacao": "G5B038",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "bloco": "220823",
+        "code": "BD00206504",
+        "localizacao": "G5B038",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "bloco": "220823",
+        "code": "BD00206502",
+        "localizacao": "G5B038",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      },
+      {
+        "produto": "Vision Crystal | Premium | 2cm",
+        "bloco": "220823",
+        "code": "BD00206899",
+        "localizacao": "G5B038",
+        "situacao": "Blocked",
+        "dataCriacao": "13/08/2026"
+      }
+    ]
+  }
+}

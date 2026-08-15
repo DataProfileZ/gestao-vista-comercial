@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestão à Vista Comercial — Zucchi</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="stage">
+
+  <!-- V1 — Meta x Realizado -->
+  <!-- CAPA -->
+  <section class="screen cover-screen" data-screen="cover">
+    <img class="cover-logo" src="assets/brand/logo-branca.png" alt="Zucchi Luxury Stones">
+    <div class="cover-title">Gestão à Vista — Comercial Zucchi</div>
+  </section>
+
+  <section class="screen" data-screen="v1-meta">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Meta x Realizado</div>
+      <div class="meta-strip" id="meta-strip-1"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:1fr 1fr;">
+      <div class="card">
+        <div class="card-title">% Meta x Realizado — Ano</div>
+        <div id="v1-ano"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">% Meta x Realizado — Mês Atual</div>
+        <div id="v1-mes"></div>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- V2 — Ofertas do Mês (independente de direcionamento) -->
+  <section class="screen" data-screen="v2-ofertas">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Ofertas do Mês</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:.4fr 1.6fr;">
+      <div class="card kpi"><div class="value" id="v2-total">–</div><div class="label">Total de Ofertas no Mês</div></div>
+      <div class="card">
+        <div class="card-title">Ofertas Enviadas por Vendedor</div>
+        <div id="v2-bars"></div>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- V3 — Containers -->
+  <section class="screen" data-screen="v3-containers">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Containers da Semana</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:.6fr 1.4fr;">
+      <div class="card kpi"><div class="value" id="v3-qtde">–</div><div class="label">Containers na Semana</div></div>
+      <div class="card">
+        <div class="card-title">Carregamentos por Dia</div>
+        <div id="v3-cols" style="flex:1;display:flex;align-items:flex-end;gap:2vw;padding:1vh 1vw;"></div>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- V4a — Reservas -->
+  <section class="screen" data-screen="v4-reservas">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Reservas</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:.4fr 1.6fr;">
+      <div class="grid" style="grid-template-rows:1fr 1fr;gap:1.4vh;">
+        <div class="card kpi"><div class="value" id="v4-qtde">–</div><div class="label">Itens Reservados — Ano</div></div>
+        <div class="card kpi"><div class="value" id="v4-m2">–</div><div class="label">M² Reservados — Ano</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">% Reserva sobre a Meta do Mês — por Vendedor</div>
+        <div id="v4-bars"></div>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- V4b — Taj Mahal -->
+  <section class="screen" data-screen="v4-taj">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">% Valor Faturado +Approval+Sold - Taj Mahal</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:1fr 1fr;">
+      <div class="card">
+        <div class="card-title">% Valor Faturado Taj Mahal — Ano</div>
+        <table class="funil" id="v4taj-table-ano"></table>
+      </div>
+      <div class="card">
+        <div class="card-title">% Valor Faturado Taj Mahal — Mês Atual</div>
+        <table class="funil" id="v4taj-table-mes"></table>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- V5 — Recebimento -->
+  <section class="screen" data-screen="v5-recebimento">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Meta de Recebimento do Mês</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:1fr;place-items:center;">
+      <div class="card" style="width:74%;padding:4vh 3vw;align-items:center;">
+        <div style="display:flex;justify-content:space-around;width:100%;margin-bottom:3vh;">
+          <div class="kpi" style="padding:0;">
+            <div class="value" id="v5-esperado-pct" style="font-size:4.2vw;">–</div>
+            <div class="label">Esperado até Hoje</div>
+          </div>
+          <div class="kpi" style="padding:0;">
+            <div class="value" id="v5-realizado-pct" style="font-size:4.2vw;">–</div>
+            <div class="label">Realizado</div>
+          </div>
+        </div>
+        <div id="v5-bullet" style="width:100%;"></div>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- ROTINA DO VENDEDOR -->
+  <section class="screen" data-screen="rotina-vendedor">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Rotina do Vendedor</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="card" style="flex:1;">
+      <div class="card-title">Oportunidades e Pedidos por Etapa</div>
+      <table class="funil" id="rotina-table"></table>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- R1 — Atividades -->
+  <section class="screen" data-screen="r1-atividades">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Atividades Pendentes</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:.5fr 1.5fr;">
+      <div class="grid" style="grid-template-rows:1fr 1fr;gap:1.4vh;">
+        <div class="card kpi"><div class="value" id="r1-pend">–</div><div class="label">Pendentes</div></div>
+        <div class="card kpi"><div class="value" id="r1-atr" style="color:var(--red);">–</div><div class="label">Atrasadas</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Resumo por Vendedor</div>
+        <div id="r1-list"></div>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- R2/TAJ — Direcionamento (modelo de tabela igual ao PDF) -->
+  <section class="screen" data-screen="r2-taj">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Direcionamento TAJ — Sem Confirmação</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:.28fr 1.72fr;">
+      <div class="grid" style="grid-template-rows:1fr 1fr;gap:1.4vh;">
+        <div class="card kpi"><div class="value" id="r2-qtde">–</div><div class="label">Qtde Itens</div></div>
+        <div class="card kpi"><div class="value" id="r2-media">–</div><div class="label">Média de Dias</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Direcionamento TAJ — Sem Confirmação</div>
+  <table class="funil" id="r2-table"></table>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  
+
+  <!-- DESTAQUES — Vendedores que bateram meta no mês anterior -->
+  <section class="screen" data-screen="destaque-meta">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Metas Batidas — Mês Anterior</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="card" style="flex:1;">
+      <div class="card-title">Vendedores com 100% ou mais da meta atingida</div>
+      <div class="vendor-grid" id="destaque-meta-grid"></div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- DESTAQUE — Container mais caro do mês anterior -->
+  <section class="screen" data-screen="destaque-container">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Container Mais Caro — Mês Anterior</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="card" style="flex:1;">
+      <div class="card-title">Top 3 — Maiores Containers do Mês Anterior</div>
+      <div class="podium-wrap" id="destaque-container-podium"></div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- CAMPANHA DIRECIONAMENTO -->
+  <section class="screen" data-screen="campanha-direcionamento">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Apuração — Campanha Direcionamento</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-rows:auto 1fr;">
+      <div class="grid" style="grid-template-columns:repeat(6,1fr);gap:1vh 1vw;">
+        <div class="card kpi" style="padding:1vh;"><div class="value" id="cd-total" style="font-size:1.8vw;">–</div><div class="label">Total Direcionado</div></div>
+        <div class="card kpi" style="padding:1vh;"><div class="value" id="cd-available" style="font-size:1.8vw;">–</div><div class="label">Available</div></div>
+        <div class="card kpi" style="padding:1vh;"><div class="value" id="cd-accepted" style="font-size:1.8vw;">–</div><div class="label">Accepted</div></div>
+        <div class="card kpi" style="padding:1vh;"><div class="value" id="cd-approval" style="font-size:1.8vw;">–</div><div class="label">Approval</div></div>
+        <div class="card kpi" style="padding:1vh;"><div class="value" id="cd-sold" style="font-size:1.8vw;">–</div><div class="label">Sold</div></div>
+        <div class="card kpi" style="padding:1vh;background:#F1DEDA;"><div class="value" id="cd-ativacao" style="font-size:1.8vw;color:var(--red-alert);">–</div><div class="label">% Ativação Comercial</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Relação de Vendedores Elegíveis</div>
+        <table class="funil" id="cd-table"></table>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+
+  <!-- MARKETING -->
+  <section class="screen" data-screen="marketing">
+    <header class="topbar">
+      <div class="brand"><span class="mark">ZUCCHI</span><span class="sub">Luxury Stones</span></div>
+      <div class="title">Marketing</div>
+      <div class="meta-strip"><span><span class="dot"></span>atualizado às --:--</span></div>
+    </header>
+    <div class="grid" style="grid-template-columns:.32fr .68fr;">
+      <div class="grid" style="grid-template-rows:auto 1fr;gap:1.4vh;">
+        <div class="card kpi"><div class="value" id="mkt-total" style="font-size:3.4vw;">–</div><div class="label">Total de Bundles sem Foto</div></div>
+        <div class="card" style="align-items:center;justify-content:center;">
+          <div id="mkt-donut"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Materiais com Fotos Ausentes</div>
+        <table class="funil" id="mkt-table"></table>
+      </div>
+    </div>
+    <footer class="footer"><span></span><div class="dots" data-dots></div></footer>
+  </section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

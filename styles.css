@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+  /* Paleta oficial Zucchi Luxury Stones */
+  --ink:#171717;            /* preto institucional */
+  --graphite:#30302E;       /* grafite */
+  --green-inst:#66705A;     /* verde institucional */
+  --green-dark:#3F493B;     /* verde escuro — dado principal / navegação */
+  --white:#FFFFFF;
+  --offwhite:#F3F0EA;       /* off-white pedra — fundo predominante */
+  --beige-taj:#C8B89E;      /* bege Taj Mahal */
+  --gold:#A68B5B;           /* dourado fosco — destaque premium/meta */
+  --gray-mid:#6F6E69;
+  --gray-light:#D8D4CC;     /* bordas discretas */
+  --green-soft:#8C9185;     /* comparação secundária */
+  --beige-soft:#B4A58C;     /* comparação secundária */
+  --red-alert:#9C4A3E;      /* vermelho — somente alertas/críticos, tom fosco */
+
+  --bg:var(--offwhite);
+  --card:var(--white);
+  --line:var(--gray-light);
+  --radius:7px;
+}
+
+*{box-sizing:border-box;}
+html,body{
+  margin:0;padding:0;height:100%;width:100%;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Inter',system-ui,sans-serif;
+  overflow:hidden;
+}
+
+/* ---------- shell ---------- */
+#stage{
+  position:relative;
+  width:100vw;height:100vh;
+  aspect-ratio:16/9;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.screen{
+  position:absolute;inset:0;
+  display:flex;flex-direction:column;
+  padding:2.2vh 3vw 1.4vh;
+  opacity:0;
+  transform:translateY(14px);
+  transition:opacity .55s ease, transform .55s ease;
+  pointer-events:none;
+}
+.screen.is-active{
+  opacity:1;transform:translateY(0);
+  pointer-events:auto;
+}
+
+/* ---------- header ---------- */
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  background:var(--green-dark);
+  border-bottom:3px solid var(--gold);
+  border-radius:var(--radius);
+  padding:1.4vh 2vw;
+  margin-bottom:1.6vh;
+  position:relative;
+}
+.brand{
+  display:flex;align-items:baseline;gap:.9vw;
+}
+.brand .mark{
+  font-family:'Barlow Condensed',sans-serif;
+  font-weight:700;font-size:1.6vw;letter-spacing:.05em;
+  color:#fff;
+}
+.brand .sub{
+  font-size:.85vw;color:var(--beige-taj);
+  font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+}
+.title{
+  font-family:'Barlow Condensed',sans-serif;
+  font-weight:700;font-size:2.2vw;color:#fff;
+  letter-spacing:.005em;
+}
+.meta-strip{
+  display:flex;flex-direction:column;align-items:flex-end;
+  color:#E4E1D8;font-size:.78vw;
+}
+.meta-strip .dot{
+  display:inline-block;width:.5vw;height:.5vw;border-radius:50%;
+  background:var(--green-soft);margin-right:.4vw;
+}
+.meta-strip.stale .dot{background:var(--gold);}
+
+/* ---------- content grids ---------- */
+.grid{
+  flex:1;display:grid;gap:1.4vh 1.4vw;
+  min-height:0;
+}
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:1.6vh 1.6vw;
+  border:1px solid var(--line);
+  min-height:0;
+  display:flex;flex-direction:column;
+}
+.card-title{
+  font-family:'Barlow Condensed',sans-serif;
+  font-weight:700;font-size:1.1vw;
+  color:var(--graphite);
+  text-transform:uppercase;letter-spacing:.04em;
+  border-bottom:2px solid var(--gold);
+  padding-bottom:.6vh;margin-bottom:1vh;
+}
+
+/* ---------- kpi cards ---------- */
+.kpi{
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
+  text-align:center;
+  background:var(--offwhite);
+}
+.kpi .value{
+  font-family:'Barlow Condensed',sans-serif;
+  font-weight:700;font-size:4.2vw;line-height:1;
+  color:var(--green-dark);
+}
+.kpi .label{
+  margin-top:.6vh;font-size:.95vw;color:var(--gray-mid);
+  text-transform:uppercase;letter-spacing:.07em;font-weight:600;
+}
+
+/* ---------- bars ---------- */
+.bars-list{
+  display:flex;flex-direction:column;
+  flex:1;min-height:0;
+}
+.bar-row{
+  display:grid;grid-template-columns:11vw 1fr 4.2vw;
+  align-items:center;gap:.8vw;
+  flex:1;min-height:0;
+  padding:.15vh 0;
+}
+.bar-row .name{font-size:.92vw;font-weight:600;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.bar-track{
+  background:var(--offwhite);border:1px solid var(--line);border-radius:5px;height:min(1.5vh, 55%);overflow:hidden;
+}
+.bar-fill{
+  height:100%;border-radius:4px;
+  background:var(--green-dark);
+  transition:width .6s ease;
+}
+.bar-fill.warn{background:var(--gold);}
+.bar-fill.danger{background:var(--red-alert);}
+.bar-row .pct{font-size:.98vw;font-weight:700;text-align:right;color:var(--graphite);}
+
+/* ---------- table ---------- */
+table.funil{
+  width:100%;border-collapse:collapse;font-size:.92vw;
+}
+table.funil th{
+  text-align:left;color:var(--graphite);background:var(--offwhite);
+  padding:.7vh .8vw;font-weight:700;font-family:'Barlow Condensed',sans-serif;
+  letter-spacing:.02em;font-size:.98vw;
+  border-bottom:2px solid var(--gold);
+}
+table.funil td{
+  padding:.6vh .8vw;border-bottom:1px solid var(--line);
+  font-weight:600;color:var(--ink);
+}
+table.funil tr.total td{
+  background:var(--offwhite);font-weight:800;border-top:2px solid var(--green-dark);
+}
+table.funil tr.pct td{color:var(--gray-mid);font-style:italic;font-weight:600;}
+table.funil td.num{text-align:center;}
+
+/* ---------- footer / position ---------- */
+.footer{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-top:1vh;font-size:.76vw;color:var(--gray-mid);
+}
+.dots{display:flex;gap:.5vw;}
+.dots span{
+  width:.65vw;height:.65vw;border-radius:50%;
+  background:var(--gray-light);transition:background .3s;
+}
+.dots span.on{background:var(--gold);}
+
+.stale-banner{
+  display:none;
+  position:absolute;bottom:1.6vh;left:50%;transform:translateX(-50%);
+  background:var(--gold);color:var(--ink);font-weight:700;
+  padding:.6vh 1.4vw;border-radius:999px;font-size:.85vw;
+  z-index:5;
+}
+.stale-banner.show{display:block;}
+
+/* ---------- vendedor cards (foto + resultado) ---------- */
+.vendor-grid{
+  display:grid;grid-template-columns:repeat(auto-fill, minmax(15vw,1fr));
+  gap:1.2vh 1.2vw;flex:1;align-content:start;
+}
+.vendor-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.2vh 1vw;display:flex;flex-direction:column;align-items:center;text-align:center;
+  gap:.6vh;
+}
+.vendor-card .photo{
+  width:5.5vw;height:5.5vw;border-radius:50%;object-fit:cover;
+  border:3px solid var(--gold);
+}
+.vendor-card .photo.placeholder{
+  background:var(--offwhite);border:3px solid var(--gray-light);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Barlow Condensed';font-weight:700;font-size:1.8vw;color:var(--gray-mid);
+}
+.vendor-card .first-name{
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.15vw;
+  color:var(--ink);text-transform:uppercase;letter-spacing:.03em;
+}
+.vendor-card .pct{
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.6vw;
+  color:var(--green-dark);
+}
+.vendor-card.top .photo{border-color:var(--gold);}
+.vendor-card.top .pct{color:var(--gold);}
+
+/* ---------- container destaque (foto grande + valor) ---------- */
+.highlight-card{
+  display:flex;align-items:center;gap:2.5vw;flex:1;padding:2vh 2vw;
+}
+.highlight-card .photo{
+  width:14vw;height:14vw;border-radius:50%;object-fit:cover;border:4px solid var(--gold);
+  flex-shrink:0;
+}
+.highlight-card .photo.placeholder{
+  background:var(--offwhite);border:4px solid var(--gray-light);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Barlow Condensed';font-weight:700;font-size:3.5vw;color:var(--gray-mid);
+}
+.highlight-card .info .name{
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:2.4vw;color:var(--ink);
+}
+.highlight-card .info .value{
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:3.2vw;color:var(--green-dark);
+  margin:.4vh 0;
+}
+.highlight-card .info .label{
+  font-size:1vw;color:var(--gray-mid);text-transform:uppercase;letter-spacing:.06em;font-weight:600;
+}
+
+/* ---------- campanha direcionamento: status badges ---------- */
+.status-badge{
+  display:inline-block;padding:.25vh .7vw;border-radius:4px;font-size:.82vw;font-weight:700;
+  text-transform:uppercase;letter-spacing:.02em;
+}
+.status-sem-resultado{background:#F1DEDA;color:var(--red-alert);}
+.status-em-risco{background:#F3E7D3;color:var(--gold);}
+.status-no-ritmo{background:#E9ECE6;color:var(--green-inst);}
+.status-meta-atingida{background:#DCE3D8;color:var(--green-dark);}
+.status-sem-meta{background:var(--offwhite);color:var(--gray-mid);}
+
+.pending-banner{
+  background:var(--offwhite);border:1.5px dashed var(--gold);border-radius:var(--radius);
+  padding:1.5vh 1.5vw;text-align:center;color:var(--gray-mid);font-size:1vw;flex:1;
+  display:flex;align-items:center;justify-content:center;
+}
+
+/* ---------- tela de abertura ---------- */
+.cover-screen{
+  background:var(--green-dark);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:0 4vw;
+}
+.cover-screen::after{
+  content:"";
+  position:absolute; left:8%; right:8%; bottom:14%;
+  height:2px; background:var(--gold);
+}
+.cover-logo{
+  width:38vw; max-width:640px;
+  margin-bottom:4vh;
+}
+.cover-title{
+  font-family:'Barlow Condensed',sans-serif;
+  font-weight:700; font-size:2.6vw; color:#fff;
+  letter-spacing:.03em; text-align:center;
+}
+.cover-subtitle{
+  font-family:'Inter',sans-serif;
+  font-weight:600; font-size:1vw; color:var(--beige-taj);
+  text-transform:uppercase; letter-spacing:.16em;
+  margin-top:1.4vh;
+}
+
+/* ---------- pódio top 3 ---------- */
+.podium-wrap{
+  flex:1;display:flex;align-items:flex-end;justify-content:center;gap:2vw;
+  padding:2vh 2vw 0;
+}
+.podium-slot{
+  display:flex;flex-direction:column;align-items:center;
+}
+.podium-slot .photo{
+  width:9vw;height:9vw;border-radius:50%;object-fit:cover;border:4px solid var(--gold);
+  margin-bottom:1vh;background:var(--offwhite);
+}
+.podium-slot.first .photo{width:11vw;height:11vw;border-width:5px;}
+.podium-slot .photo.placeholder{
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Barlow Condensed';font-weight:700;color:var(--gray-mid);
+  border:4px solid var(--gray-light);
+}
+.podium-slot .value{
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.9vw;color:var(--ink);
+}
+.podium-slot.first .value{font-size:2.3vw;color:var(--green-dark);}
+.podium-slot .name{
+  font-size:1.05vw;color:var(--graphite);font-weight:600;margin-bottom:1.2vh;
+}
+.podium-base{
+  width:9vw;background:var(--offwhite);border:1px solid var(--line);
+  border-top:5px solid var(--gold);border-radius:6px 6px 0 0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Barlow Condensed',sans-serif;font-weight:800;color:var(--gold);
+}
+.podium-slot.first .podium-base{height:16vh;font-size:3.5vw;width:11vw;}
+.podium-slot.second .podium-base{height:11vh;font-size:2.6vw;}
+.podium-slot.third .podium-base{height:7vh;font-size:2.6vw;}
+
+@media (max-width:900px){
+  .brand .mark{font-size:3vw;}
+  .title{font-size:4vw;}
+  .kpi .value{font-size:9vw;}
+}
+
+/* ---------- gráfico de rosca (Marketing) ---------- */
+.donut-wrap{
+  display:flex;flex-direction:column;align-items:center;gap:1.4vh;width:100%;
+}
+.donut-legend{
+  display:flex;flex-direction:column;gap:.5vh;width:100%;font-size:.85vw;
+}
+.donut-legend-row{
+  display:flex;align-items:center;gap:.6vw;
+}
+.donut-legend-dot{
+  width:.8vw;height:.8vw;border-radius:2px;flex-shrink:0;
+}
+.donut-legend-label{flex:1;color:var(--ink);font-weight:600;}
+.donut-legend-value{color:var(--graphite);font-weight:800;}
+
+/* ---------- bullet chart (Recebimento: Esperado x Realizado) ---------- */
+.bullet-track{
+  position:relative;width:100%;height:5vh;background:var(--offwhite);
+  border:1px solid var(--line);border-radius:8px;overflow:visible;
+}
+.bullet-fill{
+  position:absolute;top:0;left:0;height:100%;border-radius:7px;
+  transition:width .6s ease;
+}
+.bullet-marker{
+  position:absolute;top:-1vh;width:3px;height:7vh;background:var(--ink);
+}
+.bullet-marker-label{
+  position:absolute;top:-3.4vh;transform:translateX(-50%);
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1vw;
+  color:var(--ink);white-space:nowrap;
+}
+.bullet-scale{
+  display:flex;justify-content:space-between;margin-top:.8vh;
+  font-size:.8vw;color:var(--gray-mid);font-weight:600;
+}

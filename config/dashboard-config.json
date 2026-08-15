@@ -1,0 +1,22 @@
+{
+  "refreshMinutes": 10,
+  "staleAfterMinutes": 45,
+  "screens": [
+    { "id": "cover",                   "name": "Capa",                        "active": true, "order": 1,  "durationSeconds": 10 },
+    { "id": "destaque-meta",           "name": "Metas Batidas",               "active": false, "order": 2,  "durationSeconds": 18 },
+    { "id": "destaque-container",      "name": "Container Mais Caro",         "active": false, "order": 3,  "durationSeconds": 15 },
+    { "id": "v1-meta",                 "name": "Meta x Realizado",            "active": true, "order": 4,  "durationSeconds": 20 },
+    { "id": "v5-recebimento",          "name": "Meta de Recebimento",         "active": true, "order": 5,  "durationSeconds": 15 },
+    { "id": "v4-taj",                  "name": "% Valor Faturado Taj",        "active": true, "order": 6,  "durationSeconds": 18 },
+    { "id": "r2-taj",                  "name": "Direcionamento Taj Mahal — Sem Confirmação", "active": true, "order": 7, "durationSeconds": 20 },
+    { "id": "campanha-direcionamento", "name": "Campanha Direcionamento",     "active": true, "order": 8,  "durationSeconds": 25 },
+    { "id": "v4-reservas",             "name": "Reservas",                    "active": true, "order": 9,  "durationSeconds": 18 },
+    { "id": "v2-ofertas",              "name": "Ofertas do Mês",              "active": true, "order": 10, "durationSeconds": 20 },
+    { "id": "v3-containers",           "name": "Containers da Semana",        "active": true, "order": 11, "durationSeconds": 15 },
+    { "id": "rotina-vendedor",         "name": "Rotina do Vendedor",          "active": true, "order": 12, "durationSeconds": 20 },
+    { "id": "r1-atividades",           "name": "Atividades Pendentes",        "active": true, "order": 13, "durationSeconds": 15 },
+    { "id": "marketing",               "name": "Marketing",                  "active": true, "order": 14, "durationSeconds": 20 }
+  ],
+  "returnToFirstOnError": true,
+  "pauseOnDataError": true
+}
