@@ -195,16 +195,14 @@ function renderScreenR2(){
   document.getElementById("r2-media").textContent = DATA.r2Taj.mediaDias + " dias";
 
   const rows = DATA.r2Taj.porVendedor;
-  const totalDias = rows.reduce((a,r)=>a+r.mediaDias,0);
   const totalQtde = rows.reduce((a,r)=>a+r.qtde,0);
-  const mediaGeral = Math.round(totalDias/rows.length);
 
   const table = document.getElementById("r2-table");
   let html = "<thead><tr><th>Vendedores</th><th class='num'>Média Dias desde Direc.</th><th class='num'>Qtde Itens Direc.</th></tr></thead><tbody>";
   rows.forEach(r=>{
     html += `<tr><td>${r.vendedor}</td><td class="num">${r.mediaDias}</td><td class="num">${r.qtde}</td></tr>`;
   });
-  html += `<tr class="total"><td>Total</td><td class="num">${mediaGeral}</td><td class="num">${totalQtde}</td></tr>`;
+  html += `<tr class="total"><td>Total</td><td class="num">${DATA.r2Taj.mediaDias}</td><td class="num">${totalQtde}</td></tr>`;
   html += "</tbody>";
   table.innerHTML = html;
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-17T15:17:46-03:00",
+    "generatedAt": "2026-08-17T18:11:07-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -487,78 +487,73 @@
     ]
   },
   "r2Taj": {
-    "qtdeItens": 137,
-    "mediaDias": 12.0,
+    "qtdeItens": 66,
+    "mediaDias": 19.5,
     "porVendedor": [
       {
         "vendedor": "Diego Bitencourt",
-        "qtde": 24,
-        "mediaDias": 16.7
+        "qtde": 14,
+        "mediaDias": 25.0
       },
       {
         "vendedor": "Ana Amado",
-        "qtde": 19,
-        "mediaDias": 8.4
+        "qtde": 8,
+        "mediaDias": 13.0
       },
       {
         "vendedor": "Manon Fernandez",
-        "qtde": 15,
-        "mediaDias": 9.3
-      },
-      {
-        "vendedor": "Lara Roncetti",
-        "qtde": 13,
-        "mediaDias": 9.8
-      },
-      {
-        "vendedor": "Arthur Lodi",
-        "qtde": 13,
-        "mediaDias": 9.5
+        "qtde": 8,
+        "mediaDias": 13.0
       },
       {
         "vendedor": "Renzo Carletti",
-        "qtde": 12,
-        "mediaDias": 10.3
-      },
-      {
-        "vendedor": "Ignacia Acevedo",
-        "qtde": 9,
-        "mediaDias": 7.7
+        "qtde": 8,
+        "mediaDias": 13.0
       },
       {
         "vendedor": "Enzo Ziviani",
-        "qtde": 8,
-        "mediaDias": 9
-      },
-      {
-        "vendedor": "Eduardo Gomes",
-        "qtde": 7,
-        "mediaDias": 17.9
-      },
-      {
-        "vendedor": "Felipe Lobato",
         "qtde": 4,
-        "mediaDias": 5
-      },
-      {
-        "vendedor": "Thalys Eccel Kill",
-        "qtde": 4,
-        "mediaDias": 13
+        "mediaDias": 13.0
       },
       {
         "vendedor": "Marcelino Camata",
         "qtde": 4,
-        "mediaDias": 13
+        "mediaDias": 13.0
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "qtde": 4,
+        "mediaDias": 13.0
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtde": 3,
+        "mediaDias": 26.0
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "qtde": 3,
+        "mediaDias": 13.0
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "qtde": 3,
+        "mediaDias": 35.0
       },
       {
         "vendedor": "Livia Ventorim",
         "qtde": 3,
-        "mediaDias": 42
+        "mediaDias": 42.0
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "qtde": 2,
+        "mediaDias": 34.0
       },
       {
         "vendedor": "Pedro Ribeiro",
         "qtde": 2,
-        "mediaDias": 26
+        "mediaDias": 26.0
       }
     ]
   },
