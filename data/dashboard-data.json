@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-15T12:54:07-03:00",
+    "generatedAt": "2026-08-16T21:03:50-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -983,85 +983,73 @@
     "_nota": "Apenas oportunidades/pedidos com indicador de problema associado."
   },
   "marketing": {
-    "totalSemFoto": 17,
+    "totalSemFoto": 41,
     "porProduto": [
       {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "qtde": 8
+        "produto": "Namib Bianco | Premium | 2cm",
+        "qtde": 5
       },
       {
         "produto": "Raffinato | Premium | 2cm",
         "qtde": 1
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "qtde": 8
+        "produto": "Salvatore | Premium | 2cm",
+        "qtde": 6
+      },
+      {
+        "produto": "Taj Mahal | Commercial | 2cm",
+        "qtde": 1
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "qtde": 21
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "qtde": 7
       }
     ],
     "registros": [
       {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "bloco": "221020",
-        "code": "BD00206996",
-        "localizacao": "TRANSFER",
+        "produto": "Namib Bianco | Premium | 2cm",
+        "bloco": "208748",
+        "code": "BD00206751",
+        "localizacao": "S1A002",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "bloco": "221016",
-        "code": "BD00206516",
-        "localizacao": "TRANSFER",
+        "produto": "Namib Bianco | Premium | 2cm",
+        "bloco": "208748",
+        "code": "BD00206749",
+        "localizacao": "S1A002",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "bloco": "221016",
-        "code": "BD00207015",
-        "localizacao": "TRANSFER",
+        "produto": "Namib Bianco | Premium | 2cm",
+        "bloco": "208748",
+        "code": "BD00206752",
+        "localizacao": "S1A003",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "bloco": "221016",
-        "code": "BD00206518",
-        "localizacao": "TRANSFER",
+        "produto": "Namib Bianco | Premium | 2cm",
+        "bloco": "208748",
+        "code": "BD00206750",
+        "localizacao": "S1A003",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "bloco": "221020",
-        "code": "BD00206998",
-        "localizacao": "TRANSFER",
+        "produto": "Namib Bianco | Premium | 2cm",
+        "bloco": "208748",
+        "code": "BD00206754",
+        "localizacao": "S1A003",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
-      },
-      {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "bloco": "221020",
-        "code": "BD00206999",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
-      },
-      {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "bloco": "221020",
-        "code": "BD00206997",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
-      },
-      {
-        "produto": "Crystal Catedral | Premium | 3cm",
-        "bloco": "221016",
-        "code": "BD00206517",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
         "produto": "Raffinato | Premium | 2cm",
@@ -1072,68 +1060,284 @@
         "dataCriacao": "11/08/2026"
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "bloco": "220823",
-        "code": "BD00206506",
-        "localizacao": "G5B038",
+        "produto": "Salvatore | Premium | 2cm",
+        "bloco": "221525",
+        "code": "BD00206883",
+        "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "bloco": "220823",
-        "code": "BD00206503",
-        "localizacao": "G5B038",
+        "produto": "Salvatore | Premium | 2cm",
+        "bloco": "221526",
+        "code": "BD00206885",
+        "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "bloco": "220823",
-        "code": "BD00206505",
-        "localizacao": "G5B040",
+        "produto": "Salvatore | Premium | 2cm",
+        "bloco": "221525",
+        "code": "BD00206881",
+        "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "bloco": "220823",
-        "code": "BD00206500",
-        "localizacao": "G5B040",
+        "produto": "Salvatore | Premium | 2cm",
+        "bloco": "221525",
+        "code": "BD00206882",
+        "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "bloco": "220823",
-        "code": "BD00206507",
-        "localizacao": "G5B038",
+        "produto": "Salvatore | Premium | 2cm",
+        "bloco": "221526",
+        "code": "BD00206884",
+        "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "bloco": "220823",
-        "code": "BD00206504",
-        "localizacao": "G5B038",
+        "produto": "Salvatore | Premium | 2cm",
+        "bloco": "221526",
+        "code": "BD00206886",
+        "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "10/08/2026"
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "bloco": "220823",
-        "code": "BD00206502",
-        "localizacao": "G5B038",
+        "produto": "Taj Mahal | Commercial | 2cm",
+        "bloco": "221529",
+        "code": "BD00207024",
+        "localizacao": "G5A003",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "14/08/2026"
       },
       {
-        "produto": "Vision Crystal | Premium | 2cm",
-        "bloco": "220823",
-        "code": "BD00206899",
-        "localizacao": "G5B038",
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221173",
+        "code": "BD00206932",
+        "localizacao": "G5B007",
         "situacao": "Blocked",
-        "dataCriacao": "13/08/2026"
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221529",
+        "code": "BD00207031",
+        "localizacao": "G5A003",
+        "situacao": "Blocked",
+        "dataCriacao": "14/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221529",
+        "code": "BD00207026",
+        "localizacao": "G5A003",
+        "situacao": "Blocked",
+        "dataCriacao": "14/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221529",
+        "code": "BD00207025",
+        "localizacao": "G5A003",
+        "situacao": "Blocked",
+        "dataCriacao": "14/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221529",
+        "code": "BD00207032",
+        "localizacao": "G5A003",
+        "situacao": "Blocked",
+        "dataCriacao": "14/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221529",
+        "code": "BD00207030",
+        "localizacao": "G5A003",
+        "situacao": "Blocked",
+        "dataCriacao": "14/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221529",
+        "code": "BD00207029",
+        "localizacao": "G5A003",
+        "situacao": "Blocked",
+        "dataCriacao": "14/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221529",
+        "code": "BD00207028",
+        "localizacao": "G5A003",
+        "situacao": "Blocked",
+        "dataCriacao": "14/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221044",
+        "code": "BD00207023",
+        "localizacao": "G5B005",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221044",
+        "code": "BD00207018",
+        "localizacao": "G5B005",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221044",
+        "code": "BD00207017",
+        "localizacao": "G5B005",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221044",
+        "code": "BD00207019",
+        "localizacao": "G5B005",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221044",
+        "code": "BD00207022",
+        "localizacao": "G5B005",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221044",
+        "code": "BD00207020",
+        "localizacao": "G5B005",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221173",
+        "code": "BD00206927",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221173",
+        "code": "BD00206926",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221173",
+        "code": "BD00206929",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221173",
+        "code": "BD00206930",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221173",
+        "code": "BD00206931",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221173",
+        "code": "BD00206928",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221044",
+        "code": "BD00207021",
+        "localizacao": "G5B005",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "221025",
+        "code": "BD00206896",
+        "localizacao": "G6A009",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "221025",
+        "code": "BD00206894",
+        "localizacao": "G6A009",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "221025",
+        "code": "BD00206895",
+        "localizacao": "G6A009",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "221025",
+        "code": "BD00206897",
+        "localizacao": "G6A009",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "221025",
+        "code": "BD00206898",
+        "localizacao": "G6A009",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "221025",
+        "code": "BD00206892",
+        "localizacao": "G6A009",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "221025",
+        "code": "BD00206893",
+        "localizacao": "G6A009",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
       }
     ]
   }
