@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-16T21:03:50-03:00",
+    "generatedAt": "2026-08-17T15:17:46-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -32,7 +32,7 @@
       },
       {
         "vendedor": "Enzo Ziviani",
-        "pct": 0.6014
+        "pct": 0.6201
       },
       {
         "vendedor": "André Zucchi",
@@ -81,24 +81,24 @@
         "pct": 0.5581
       },
       {
+        "vendedor": "Ignacia Acevedo",
+        "pct": 0.5437
+      },
+      {
         "vendedor": "Marcelino Camata",
         "pct": 0.5427
       },
       {
         "vendedor": "Felipe Lobato",
-        "pct": 0.5157
+        "pct": 0.5396
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "pct": 0.5159
       },
       {
         "vendedor": "Diego Bitencourt",
         "pct": 0.5149
-      },
-      {
-        "vendedor": "Pedro Ribeiro",
-        "pct": 0.4966
-      },
-      {
-        "vendedor": "Ignacia Acevedo",
-        "pct": 0.4687
       },
       {
         "vendedor": "Enzo Ziviani",
@@ -113,12 +113,12 @@
         "pct": 0.2743
       },
       {
-        "vendedor": "Livia Ventorim",
-        "pct": 0.2143
+        "vendedor": "Thalys Eccel Kill",
+        "pct": 0.2514
       },
       {
-        "vendedor": "Thalys Eccel Kill",
-        "pct": 0.1811
+        "vendedor": "Livia Ventorim",
+        "pct": 0.2143
       },
       {
         "vendedor": "Ana Amado",
@@ -132,7 +132,7 @@
   },
   "v2Ofertas": {
     "_nota": "Total de ofertas enviadas no mês vigente (agosto/2026).",
-    "totalMes": 1480,
+    "totalMes": 1592,
     "porVendedor": [
       {
         "vendedor": "Felipe Lobato",
@@ -144,7 +144,7 @@
       },
       {
         "vendedor": "Pedro Ribeiro",
-        "qtde": 192
+        "qtde": 194
       },
       {
         "vendedor": "Livia Ventorim",
@@ -152,39 +152,39 @@
       },
       {
         "vendedor": "Diego Bitencourt",
-        "qtde": 108
+        "qtde": 139
       },
       {
         "vendedor": "Enzo Ziviani",
-        "qtde": 103
+        "qtde": 110
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtde": 90
       },
       {
         "vendedor": "Arthur Lodi",
-        "qtde": 85
+        "qtde": 87
       },
       {
         "vendedor": "Manon Fernandez",
-        "qtde": 64
+        "qtde": 67
       },
       {
         "vendedor": "Ana Amado",
         "qtde": 55
       },
       {
-        "vendedor": "Lara Roncetti",
-        "qtde": 54
-      },
-      {
         "vendedor": "Renzo Carletti",
-        "qtde": 47
+        "qtde": 50
       },
       {
         "vendedor": "André Zucchi",
-        "qtde": 43
+        "qtde": 44
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "qtde": 12
+        "qtde": 39
       },
       {
         "vendedor": "Marcelino Camata",
@@ -197,86 +197,78 @@
     ]
   },
   "v3Containers": {
-    "qtdeSemana": 62,
+    "qtdeSemana": 6,
     "porDia": [
       {
-        "dia": "10/08",
-        "qtde": 9
+        "dia": "17/08",
+        "qtde": 4
       },
       {
-        "dia": "11/08",
-        "qtde": 12
-      },
-      {
-        "dia": "12/08",
-        "qtde": 12
-      },
-      {
-        "dia": "13/08",
-        "qtde": 11
-      },
-      {
-        "dia": "14/08",
-        "qtde": 18
+        "dia": "18/08",
+        "qtde": 2
       }
     ]
   },
   "v4Reservas": {
-    "anoQtdeItens": 12009,
-    "anoM2": 50708.234,
+    "anoQtdeItens": 11949,
+    "anoM2": 48180.009,
     "_nota": "Snapshot atual + % sobre meta de agosto/2026 por vendedor.",
     "porVendedorPctMetaMes": [
       {
         "vendedor": "Eduardo Gomes",
-        "pct": 2.2274
-      },
-      {
-        "vendedor": "Livia Ventorim",
-        "pct": 1.3867
+        "pct": 2.4369
       },
       {
         "vendedor": "Diego Bitencourt",
-        "pct": 1.3688
-      },
-      {
-        "vendedor": "Pedro Ribeiro",
-        "pct": 1.3468
+        "pct": 1.412
       },
       {
         "vendedor": "Marcelino Camata",
-        "pct": 1.1673
+        "pct": 1.3314
       },
       {
-        "vendedor": "Manon Fernandez",
-        "pct": 1.0388
-      },
-      {
-        "vendedor": "Lara Roncetti",
-        "pct": 1.0233
+        "vendedor": "Pedro Ribeiro",
+        "pct": 1.2628
       },
       {
         "vendedor": "Enzo Ziviani",
-        "pct": 0.9453
+        "pct": 1.1821
       },
       {
         "vendedor": "Arthur Lodi",
-        "pct": 0.8568
+        "pct": 0.9773
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "pct": 0.9622
+      },
+      {
+        "vendedor": "Ana Amado",
+        "pct": 0.941
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "pct": 0.8345
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "pct": 0.8105
       },
       {
         "vendedor": "Felipe Lobato",
-        "pct": 0.8394
+        "pct": 0.7973
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "pct": 0.7504
-      },
-      {
-        "vendedor": "Renzo Carletti",
-        "pct": 0.5465
+        "pct": 0.6786
       },
       {
         "vendedor": "Ignacia Acevedo",
-        "pct": 0.5
+        "pct": 0.5457
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "pct": 0.468
       },
       {
         "vendedor": "André Zucchi",
@@ -289,8 +281,8 @@
     "ano": [
       {
         "vendedor": "Thalys Eccel Kill",
-        "pctValor": 0.5609,
-        "pctQtde": 0.506
+        "pctValor": 0.5608,
+        "pctQtde": 0.5058
       },
       {
         "vendedor": "Enzo Ziviani",
@@ -299,13 +291,13 @@
       },
       {
         "vendedor": "Lara Roncetti",
-        "pctValor": 0.5271,
-        "pctQtde": 0.4193
+        "pctValor": 0.5239,
+        "pctQtde": 0.4186
       },
       {
         "vendedor": "Pedro Ribeiro",
-        "pctValor": 0.5087,
-        "pctQtde": 0.451
+        "pctValor": 0.5048,
+        "pctQtde": 0.4491
       },
       {
         "vendedor": "Livia Ventorim",
@@ -354,8 +346,8 @@
       },
       {
         "vendedor": "Renzo Carletti",
-        "pctValor": 0.3702,
-        "pctQtde": 0.3684
+        "pctValor": 0.366,
+        "pctQtde": 0.364
       },
       {
         "vendedor": "Marcelino Camata",
@@ -371,8 +363,8 @@
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "pctValor": 0.6994,
-        "pctQtde": 0.6514
+        "pctValor": 0.6861,
+        "pctQtde": 0.6381
       },
       {
         "vendedor": "Enzo Ziviani",
@@ -386,23 +378,13 @@
       },
       {
         "vendedor": "Lara Roncetti",
-        "pctValor": 0.4897,
-        "pctQtde": 0.3762
+        "pctValor": 0.4753,
+        "pctQtde": 0.3745
       },
       {
         "vendedor": "Diego Bitencourt",
         "pctValor": 0.4135,
         "pctQtde": 0.3985
-      },
-      {
-        "vendedor": "Renzo Carletti",
-        "pctValor": 0.413,
-        "pctQtde": 0.3918
-      },
-      {
-        "vendedor": "Pedro Ribeiro",
-        "pctValor": 0.4098,
-        "pctQtde": 0.3679
       },
       {
         "vendedor": "Manon Fernandez",
@@ -413,6 +395,16 @@
         "vendedor": "Felipe Lobato",
         "pctValor": 0.4029,
         "pctQtde": 0.3598
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "pctValor": 0.3982,
+        "pctQtde": 0.3621
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "pctValor": 0.3848,
+        "pctQtde": 0.3635
       },
       {
         "vendedor": "Ignacia Acevedo",
@@ -433,29 +425,34 @@
         "vendedor": "Ana Amado",
         "pctValor": 0.1774,
         "pctQtde": 0.185
+      },
+      {
+        "vendedor": "Eduardo Gomes",
+        "pctValor": 0.0,
+        "pctQtde": 0.0
       }
     ]
   },
   "v5Recebimento": {
-    "pctMeta": 0.3126,
-    "valorValidado": 2375988.85,
+    "pctMeta": 0.3651,
+    "valorValidado": 2774816.11,
     "meta": 7600000.0,
     "ritmo": {
       "totalDiasUteis": 21,
-      "diasUteisTranscorridos": 10,
+      "diasUteisTranscorridos": 11,
       "metaDiaria": 361904.76,
-      "recebimentoEsperado": 3619047.62,
-      "pctEsperado": 0.4762
+      "recebimentoEsperado": 3980952.36,
+      "pctEsperado": 0.5238
     }
   },
   "r1Atividades": {
     "pendentes": 15,
-    "atrasadas": 11,
+    "atrasadas": 12,
     "porVendedor": [
       {
         "vendedor": "Enzo Ziviani",
         "pendentes": 6,
-        "atrasadas": 3
+        "atrasadas": 4
       },
       {
         "vendedor": "Arthur Lodi",
@@ -468,12 +465,12 @@
         "atrasadas": 1
       },
       {
-        "vendedor": "Manon Fernandez",
+        "vendedor": "Thalys Eccel Kill",
         "pendentes": 1,
         "atrasadas": 1
       },
       {
-        "vendedor": "Thalys Eccel Kill",
+        "vendedor": "Lara Roncetti",
         "pendentes": 1,
         "atrasadas": 1
       },
@@ -483,96 +480,96 @@
         "atrasadas": 1
       },
       {
-        "vendedor": "Lara Roncetti",
+        "vendedor": "Manon Fernandez",
         "pendentes": 1,
         "atrasadas": 1
       }
     ]
   },
   "r2Taj": {
-    "qtdeItens": 146,
-    "mediaDias": 10.3,
+    "qtdeItens": 137,
+    "mediaDias": 12.0,
     "porVendedor": [
       {
         "vendedor": "Diego Bitencourt",
         "qtde": 24,
-        "mediaDias": 14.7
+        "mediaDias": 16.7
       },
       {
         "vendedor": "Ana Amado",
         "qtde": 19,
-        "mediaDias": 6.4
-      },
-      {
-        "vendedor": "Lara Roncetti",
-        "qtde": 16,
-        "mediaDias": 12.2
+        "mediaDias": 8.4
       },
       {
         "vendedor": "Manon Fernandez",
         "qtde": 15,
-        "mediaDias": 7.3
+        "mediaDias": 9.3
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtde": 13,
+        "mediaDias": 9.8
       },
       {
         "vendedor": "Arthur Lodi",
         "qtde": 13,
-        "mediaDias": 7.5
+        "mediaDias": 9.5
       },
       {
         "vendedor": "Renzo Carletti",
         "qtde": 12,
-        "mediaDias": 8.3
+        "mediaDias": 10.3
       },
       {
         "vendedor": "Ignacia Acevedo",
-        "qtde": 11,
-        "mediaDias": 5.2
+        "qtde": 9,
+        "mediaDias": 7.7
       },
       {
         "vendedor": "Enzo Ziviani",
         "qtde": 8,
-        "mediaDias": 7.0
+        "mediaDias": 9
       },
       {
         "vendedor": "Eduardo Gomes",
         "qtde": 7,
-        "mediaDias": 15.9
+        "mediaDias": 17.9
       },
       {
         "vendedor": "Felipe Lobato",
-        "qtde": 6,
-        "mediaDias": 3.0
+        "qtde": 4,
+        "mediaDias": 5
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "qtde": 6,
-        "mediaDias": 11.0
+        "qtde": 4,
+        "mediaDias": 13
       },
       {
         "vendedor": "Marcelino Camata",
         "qtde": 4,
-        "mediaDias": 11.0
+        "mediaDias": 13
       },
       {
         "vendedor": "Livia Ventorim",
         "qtde": 3,
-        "mediaDias": 40.0
+        "mediaDias": 42
       },
       {
         "vendedor": "Pedro Ribeiro",
         "qtde": 2,
-        "mediaDias": 24.0
+        "mediaDias": 26
       }
     ]
   },
   "destaqueMeta": [],
   "campanhaDirecionamento": {
-    "totalDirecionados": 192,
-    "totalAvailable": 162,
-    "totalAccepted": 14,
-    "totalApproval": 7,
-    "totalSold": 9,
-    "pctAtivacao": 0.1333,
+    "totalDirecionados": 195,
+    "totalAvailable": 157,
+    "totalAccepted": 20,
+    "totalApproval": 8,
+    "totalSold": 10,
+    "pctAtivacao": 0.1949,
     "vendedores": [
       {
         "vendedor": "Felipe Lobato",
@@ -583,6 +580,17 @@
         "total": 15,
         "status": "Com resultado",
         "qtdContasOfertas": 29,
+        "qtdBundlesOfertados": 15
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "available": 8,
+        "accepted": 6,
+        "approval": 0,
+        "sold": 1,
+        "total": 15,
+        "status": "Com resultado",
+        "qtdContasOfertas": 97,
         "qtdBundlesOfertados": 15
       },
       {
@@ -597,6 +605,17 @@
         "qtdBundlesOfertados": 15
       },
       {
+        "vendedor": "Renzo Carletti",
+        "available": 12,
+        "accepted": 2,
+        "approval": 1,
+        "sold": 0,
+        "total": 15,
+        "status": "Em andamento",
+        "qtdContasOfertas": 45,
+        "qtdBundlesOfertados": 15
+      },
+      {
         "vendedor": "Manon Fernandez",
         "available": 10,
         "accepted": 5,
@@ -604,18 +623,7 @@
         "sold": 0,
         "total": 15,
         "status": "Em andamento",
-        "qtdContasOfertas": 23,
-        "qtdBundlesOfertados": 15
-      },
-      {
-        "vendedor": "Renzo Carletti",
-        "available": 12,
-        "accepted": 3,
-        "approval": 0,
-        "sold": 0,
-        "total": 15,
-        "status": "Em andamento",
-        "qtdContasOfertas": 45,
+        "qtdContasOfertas": 22,
         "qtdBundlesOfertados": 15
       },
       {
@@ -641,6 +649,17 @@
         "qtdBundlesOfertados": 15
       },
       {
+        "vendedor": "Enzo Ziviani",
+        "available": 15,
+        "accepted": 1,
+        "approval": 0,
+        "sold": 0,
+        "total": 16,
+        "status": "Em andamento",
+        "qtdContasOfertas": 25,
+        "qtdBundlesOfertados": 15
+      },
+      {
         "vendedor": "Thalys Eccel Kill",
         "available": 15,
         "accepted": 0,
@@ -649,17 +668,6 @@
         "total": 15,
         "status": "Sem resultado",
         "qtdContasOfertas": 31,
-        "qtdBundlesOfertados": 15
-      },
-      {
-        "vendedor": "Ignacia Acevedo",
-        "available": 13,
-        "accepted": 0,
-        "approval": 0,
-        "sold": 0,
-        "total": 13,
-        "status": "Sem resultado",
-        "qtdContasOfertas": 93,
         "qtdBundlesOfertados": 15
       },
       {
@@ -681,7 +689,7 @@
         "sold": 0,
         "total": 15,
         "status": "Sem resultado",
-        "qtdContasOfertas": 86,
+        "qtdContasOfertas": 87,
         "qtdBundlesOfertados": 15
       },
       {
@@ -705,17 +713,6 @@
         "status": "Sem resultado",
         "qtdContasOfertas": 0,
         "qtdBundlesOfertados": 0
-      },
-      {
-        "vendedor": "Enzo Ziviani",
-        "available": 15,
-        "accepted": 0,
-        "approval": 0,
-        "sold": 0,
-        "total": 15,
-        "status": "Sem resultado",
-        "qtdContasOfertas": 25,
-        "qtdBundlesOfertados": 15
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -826,48 +823,37 @@
     ],
     "vendedores": [
       {
-        "vendedor": "Ana Amado",
-        "qtdes": [
-          3,
-          0,
-          0,
-          0,
-          0
-        ],
-        "total": 3
-      },
-      {
-        "vendedor": "André Zucchi",
-        "qtdes": [
-          1,
-          0,
-          0,
-          1,
-          0
-        ],
-        "total": 2
-      },
-      {
         "vendedor": "Arthur Lodi",
         "qtdes": [
           4,
           1,
-          3,
+          4,
           6,
           0
+        ],
+        "total": 15
+      },
+      {
+        "vendedor": "Felipe Lobato",
+        "qtdes": [
+          8,
+          0,
+          3,
+          2,
+          1
         ],
         "total": 14
       },
       {
-        "vendedor": "Diego Bitencourt",
+        "vendedor": "Lara Roncetti",
         "qtdes": [
+          5,
+          2,
           2,
           0,
-          1,
-          1,
-          0
+          1
         ],
-        "total": 4
+        "total": 10
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -875,76 +861,10 @@
           1,
           0,
           0,
-          0,
+          5,
           0
         ],
-        "total": 1
-      },
-      {
-        "vendedor": "Enzo Ziviani",
-        "qtdes": [
-          1,
-          0,
-          0,
-          0,
-          0
-        ],
-        "total": 1
-      },
-      {
-        "vendedor": "Felipe Lobato",
-        "qtdes": [
-          7,
-          0,
-          2,
-          1,
-          1
-        ],
-        "total": 11
-      },
-      {
-        "vendedor": "Ignacia Acevedo",
-        "qtdes": [
-          1,
-          0,
-          0,
-          0,
-          0
-        ],
-        "total": 1
-      },
-      {
-        "vendedor": "Lara Roncetti",
-        "qtdes": [
-          9,
-          3,
-          0,
-          0,
-          1
-        ],
-        "total": 13
-      },
-      {
-        "vendedor": "Livia Ventorim",
-        "qtdes": [
-          1,
-          0,
-          1,
-          1,
-          0
-        ],
-        "total": 3
-      },
-      {
-        "vendedor": "Manon Fernandez",
-        "qtdes": [
-          1,
-          0,
-          1,
-          1,
-          0
-        ],
-        "total": 3
+        "total": 6
       },
       {
         "vendedor": "Pedro Ribeiro",
@@ -958,386 +878,239 @@
         "total": 6
       },
       {
-        "vendedor": "Renzo Carletti",
+        "vendedor": "Thalys Eccel Kill",
+        "qtdes": [
+          3,
+          0,
+          0,
+          1,
+          0
+        ],
+        "total": 4
+      },
+      {
+        "vendedor": "Diego Bitencourt",
         "qtdes": [
           1,
           0,
           1,
+          2,
+          0
+        ],
+        "total": 4
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "qtdes": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "total": 3
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "qtdes": [
+          1,
+          0,
+          2,
+          0,
+          0
+        ],
+        "total": 3
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "qtdes": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "total": 2
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "qtdes": [
+          2,
+          0,
+          0,
           0,
           0
         ],
         "total": 2
       },
       {
-        "vendedor": "Thalys Eccel Kill",
+        "vendedor": "André Zucchi",
         "qtdes": [
-          5,
+          1,
           0,
           0,
-          2,
+          1,
           0
         ],
-        "total": 7
+        "total": 2
+      },
+      {
+        "vendedor": "Ana Amado",
+        "qtdes": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 2
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "qtdes": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 1
       }
     ],
     "_nota": "Apenas oportunidades/pedidos com indicador de problema associado."
   },
   "marketing": {
-    "totalSemFoto": 41,
+    "totalSemFoto": 15,
     "porProduto": [
       {
-        "produto": "Namib Bianco | Premium | 2cm",
-        "qtde": 5
+        "produto": "Cappuccino | Premium | 3cm",
+        "qtde": 8
       },
       {
-        "produto": "Raffinato | Premium | 2cm",
-        "qtde": 1
-      },
-      {
-        "produto": "Salvatore | Premium | 2cm",
-        "qtde": 6
-      },
-      {
-        "produto": "Taj Mahal | Commercial | 2cm",
-        "qtde": 1
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "qtde": 21
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
+        "produto": "Iluminato | Premium | 2cm",
         "qtde": 7
       }
     ],
     "registros": [
       {
-        "produto": "Namib Bianco | Premium | 2cm",
-        "bloco": "208748",
-        "code": "BD00206751",
-        "localizacao": "S1A002",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Namib Bianco | Premium | 2cm",
-        "bloco": "208748",
-        "code": "BD00206749",
-        "localizacao": "S1A002",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Namib Bianco | Premium | 2cm",
-        "bloco": "208748",
-        "code": "BD00206752",
-        "localizacao": "S1A003",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Namib Bianco | Premium | 2cm",
-        "bloco": "208748",
-        "code": "BD00206750",
-        "localizacao": "S1A003",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Namib Bianco | Premium | 2cm",
-        "bloco": "208748",
-        "code": "BD00206754",
-        "localizacao": "S1A003",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Raffinato | Premium | 2cm",
-        "bloco": "209049",
-        "code": "BD00206968",
-        "localizacao": "G5A040",
-        "situacao": "Blocked",
-        "dataCriacao": "11/08/2026"
-      },
-      {
-        "produto": "Salvatore | Premium | 2cm",
-        "bloco": "221525",
-        "code": "BD00206883",
+        "produto": "Cappuccino | Premium | 3cm",
+        "bloco": "220698",
+        "code": "BD00206938",
         "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Salvatore | Premium | 2cm",
-        "bloco": "221526",
-        "code": "BD00206885",
+        "produto": "Cappuccino | Premium | 3cm",
+        "bloco": "220698",
+        "code": "BD00206842",
         "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Salvatore | Premium | 2cm",
-        "bloco": "221525",
-        "code": "BD00206881",
+        "produto": "Cappuccino | Premium | 3cm",
+        "bloco": "220698",
+        "code": "BD00206937",
         "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Salvatore | Premium | 2cm",
-        "bloco": "221525",
-        "code": "BD00206882",
+        "produto": "Cappuccino | Premium | 3cm",
+        "bloco": "220698",
+        "code": "BD00206843",
         "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Salvatore | Premium | 2cm",
-        "bloco": "221526",
-        "code": "BD00206884",
+        "produto": "Cappuccino | Premium | 3cm",
+        "bloco": "220698",
+        "code": "BD00206844",
         "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Salvatore | Premium | 2cm",
-        "bloco": "221526",
-        "code": "BD00206886",
+        "produto": "Cappuccino | Premium | 3cm",
+        "bloco": "220698",
+        "code": "BD00206846",
         "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Commercial | 2cm",
-        "bloco": "221529",
-        "code": "BD00207024",
-        "localizacao": "G5A003",
+        "produto": "Cappuccino | Premium | 3cm",
+        "bloco": "220698",
+        "code": "BD00206848",
+        "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "14/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221173",
-        "code": "BD00206932",
-        "localizacao": "G5B007",
+        "produto": "Cappuccino | Premium | 3cm",
+        "bloco": "220698",
+        "code": "BD00206849",
+        "localizacao": "-",
         "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221529",
-        "code": "BD00207031",
-        "localizacao": "G5A003",
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206496",
+        "localizacao": "G5A035",
         "situacao": "Blocked",
-        "dataCriacao": "14/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221529",
-        "code": "BD00207026",
-        "localizacao": "G5A003",
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206497",
+        "localizacao": "G5A035",
         "situacao": "Blocked",
-        "dataCriacao": "14/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221529",
-        "code": "BD00207025",
-        "localizacao": "G5A003",
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206498",
+        "localizacao": "G5A035",
         "situacao": "Blocked",
-        "dataCriacao": "14/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221529",
-        "code": "BD00207032",
-        "localizacao": "G5A003",
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206493",
+        "localizacao": "G5A035",
         "situacao": "Blocked",
-        "dataCriacao": "14/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221529",
-        "code": "BD00207030",
-        "localizacao": "G5A003",
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206953",
+        "localizacao": "G5A035",
         "situacao": "Blocked",
-        "dataCriacao": "14/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221529",
-        "code": "BD00207029",
-        "localizacao": "G5A003",
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206499",
+        "localizacao": "G5A035",
         "situacao": "Blocked",
-        "dataCriacao": "14/08/2026"
+        "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221529",
-        "code": "BD00207028",
-        "localizacao": "G5A003",
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206495",
+        "localizacao": "G5A035",
         "situacao": "Blocked",
-        "dataCriacao": "14/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221044",
-        "code": "BD00207023",
-        "localizacao": "G5B005",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221044",
-        "code": "BD00207018",
-        "localizacao": "G5B005",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221044",
-        "code": "BD00207017",
-        "localizacao": "G5B005",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221044",
-        "code": "BD00207019",
-        "localizacao": "G5B005",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221044",
-        "code": "BD00207022",
-        "localizacao": "G5B005",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221044",
-        "code": "BD00207020",
-        "localizacao": "G5B005",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221173",
-        "code": "BD00206927",
-        "localizacao": "G5B007",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221173",
-        "code": "BD00206926",
-        "localizacao": "G5B007",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221173",
-        "code": "BD00206929",
-        "localizacao": "G5B007",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221173",
-        "code": "BD00206930",
-        "localizacao": "G5B007",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221173",
-        "code": "BD00206931",
-        "localizacao": "G5B007",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221173",
-        "code": "BD00206928",
-        "localizacao": "G5B007",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221044",
-        "code": "BD00207021",
-        "localizacao": "G5B005",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "221025",
-        "code": "BD00206896",
-        "localizacao": "G6A009",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "221025",
-        "code": "BD00206894",
-        "localizacao": "G6A009",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "221025",
-        "code": "BD00206895",
-        "localizacao": "G6A009",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "221025",
-        "code": "BD00206897",
-        "localizacao": "G6A009",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "221025",
-        "code": "BD00206898",
-        "localizacao": "G6A009",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "221025",
-        "code": "BD00206892",
-        "localizacao": "G6A009",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "221025",
-        "code": "BD00206893",
-        "localizacao": "G6A009",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
+        "dataCriacao": "17/08/2026"
       }
     ]
   }
