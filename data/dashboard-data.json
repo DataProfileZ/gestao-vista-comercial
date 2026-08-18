@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-17T18:27:48-03:00",
+    "generatedAt": "2026-08-18T09:23:49-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -77,12 +77,12 @@
         "pct": 0.7638
       },
       {
-        "vendedor": "Lara Roncetti",
-        "pct": 0.5581
+        "vendedor": "Ignacia Acevedo",
+        "pct": 0.5856
       },
       {
-        "vendedor": "Ignacia Acevedo",
-        "pct": 0.5437
+        "vendedor": "Lara Roncetti",
+        "pct": 0.5581
       },
       {
         "vendedor": "Marcelino Camata",
@@ -101,6 +101,10 @@
         "pct": 0.5149
       },
       {
+        "vendedor": "Livia Ventorim",
+        "pct": 0.4198
+      },
+      {
         "vendedor": "Enzo Ziviani",
         "pct": 0.3879
       },
@@ -115,10 +119,6 @@
       {
         "vendedor": "Thalys Eccel Kill",
         "pct": 0.2514
-      },
-      {
-        "vendedor": "Livia Ventorim",
-        "pct": 0.2143
       },
       {
         "vendedor": "Ana Amado",
@@ -439,10 +439,10 @@
     "meta": 7600000.0,
     "ritmo": {
       "totalDiasUteis": 21,
-      "diasUteisTranscorridos": 11,
+      "diasUteisTranscorridos": 12,
       "metaDiaria": 361904.76,
-      "recebimentoEsperado": 3980952.36,
-      "pctEsperado": 0.5238
+      "recebimentoEsperado": 4342857.14,
+      "pctEsperado": 0.5714
     }
   },
   "r1Atividades": {
