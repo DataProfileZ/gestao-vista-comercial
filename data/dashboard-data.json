@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T12:20:46-03:00",
+    "generatedAt": "2026-08-18T12:35:05-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -500,73 +500,63 @@
     ]
   },
   "r2Taj": {
-    "qtdeItens": 66,
-    "mediaDias": 19.5,
+    "qtdeItens": 60,
+    "mediaDias": 19.7,
     "porVendedor": [
       {
         "vendedor": "Diego Bitencourt",
         "qtde": 14,
-        "mediaDias": 25.0
+        "mediaDias": 26.0
       },
       {
         "vendedor": "Ana Amado",
         "qtde": 8,
-        "mediaDias": 13.0
-      },
-      {
-        "vendedor": "Manon Fernandez",
-        "qtde": 8,
-        "mediaDias": 13.0
+        "mediaDias": 14.0
       },
       {
         "vendedor": "Renzo Carletti",
         "qtde": 8,
-        "mediaDias": 13.0
+        "mediaDias": 14.0
       },
       {
-        "vendedor": "Enzo Ziviani",
-        "qtde": 4,
-        "mediaDias": 13.0
-      },
-      {
-        "vendedor": "Marcelino Camata",
-        "qtde": 4,
-        "mediaDias": 13.0
+        "vendedor": "Manon Fernandez",
+        "qtde": 8,
+        "mediaDias": 14.0
       },
       {
         "vendedor": "Thalys Eccel Kill",
         "qtde": 4,
-        "mediaDias": 13.0
+        "mediaDias": 14.0
       },
       {
-        "vendedor": "Lara Roncetti",
-        "qtde": 3,
-        "mediaDias": 26.0
+        "vendedor": "Enzo Ziviani",
+        "qtde": 4,
+        "mediaDias": 14.0
       },
       {
-        "vendedor": "Ignacia Acevedo",
-        "qtde": 3,
-        "mediaDias": 13.0
+        "vendedor": "Marcelino Camata",
+        "qtde": 4,
+        "mediaDias": 14.0
       },
       {
         "vendedor": "Eduardo Gomes",
         "qtde": 3,
-        "mediaDias": 35.0
+        "mediaDias": 36.0
       },
       {
-        "vendedor": "Livia Ventorim",
+        "vendedor": "Lara Roncetti",
         "qtde": 3,
-        "mediaDias": 42.0
+        "mediaDias": 27.0
       },
       {
         "vendedor": "Arthur Lodi",
         "qtde": 2,
-        "mediaDias": 34.0
+        "mediaDias": 35.0
       },
       {
         "vendedor": "Pedro Ribeiro",
         "qtde": 2,
-        "mediaDias": 26.0
+        "mediaDias": 27.0
       }
     ]
   },
