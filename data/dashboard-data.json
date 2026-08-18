@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T11:47:53-03:00",
+    "generatedAt": "2026-08-18T12:05:58-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -132,8 +132,8 @@
     "_notaAno": "Realizado do Ano agora inclui o mês vigente (parcial, até hoje) — não mais restrito a meses fechados."
   },
   "v2Ofertas": {
-    "_nota": "Total de ofertas enviadas no mês vigente (agosto/2026).",
-    "totalMes": 1592,
+    "_nota": "Total de ofertas enviadas no mês vigente (agosto/2026), independente de direcionamento.",
+    "totalMes": 1805,
     "porVendedor": [
       {
         "vendedor": "Felipe Lobato",
@@ -141,59 +141,59 @@
       },
       {
         "vendedor": "Ignacia Acevedo",
-        "qtde": 256
+        "qtde": 278
       },
       {
         "vendedor": "Pedro Ribeiro",
-        "qtde": 194
+        "qtde": 224
       },
       {
         "vendedor": "Livia Ventorim",
-        "qtde": 164
+        "qtde": 198
       },
       {
         "vendedor": "Diego Bitencourt",
-        "qtde": 139
+        "qtde": 167
       },
       {
         "vendedor": "Enzo Ziviani",
-        "qtde": 110
-      },
-      {
-        "vendedor": "Lara Roncetti",
-        "qtde": 90
+        "qtde": 137
       },
       {
         "vendedor": "Arthur Lodi",
-        "qtde": 87
+        "qtde": 113
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtde": 99
       },
       {
         "vendedor": "Manon Fernandez",
-        "qtde": 67
+        "qtde": 88
       },
       {
         "vendedor": "Ana Amado",
-        "qtde": 55
+        "qtde": 58
       },
       {
         "vendedor": "Renzo Carletti",
-        "qtde": 50
+        "qtde": 57
       },
       {
         "vendedor": "André Zucchi",
-        "qtde": 44
+        "qtde": 45
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "qtde": 39
+        "qtde": 40
       },
       {
         "vendedor": "Marcelino Camata",
-        "qtde": 11
+        "qtde": 14
       },
       {
         "vendedor": "Eduardo Gomes",
-        "qtde": 5
+        "qtde": 6
       }
     ]
   },
