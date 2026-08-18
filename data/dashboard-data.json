@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T16:26:36-03:00",
+    "generatedAt": "2026-08-18T18:00:17-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -132,8 +132,8 @@
     "_notaAno": "Realizado calculado via Order.Owner (quem processou o pedido), não Account.Owner — corrigido em 19/08/2026 porque Account.Owner subestimava vendedores com contas reatribuídas ao longo do ano (ex.: Manon Fernandez). Inclui mês vigente parcial."
   },
   "v2Ofertas": {
-    "_nota": "Total de ofertas com email disparado no mês vigente, Holder=Zucchi.",
-    "totalMes": 1946,
+    "_nota": "Total geral confirmado via SOQL (2.005); breakdown por vendedor da última coleta detalhada (19/08), pode estar levemente desatualizado no detalhe.",
+    "totalMes": 2005,
     "porVendedor": [
       {
         "vendedor": "Felipe Lobato",
@@ -198,7 +198,7 @@
     ]
   },
   "v3Containers": {
-    "qtdeSemana": 28,
+    "qtdeSemana": 31,
     "porDia": [
       {
         "dia": "17/08",
@@ -309,14 +309,14 @@
         "pctQtde": 0.4491
       },
       {
+        "vendedor": "André Zucchi",
+        "pctValor": 0.4645,
+        "pctQtde": 0.5028
+      },
+      {
         "vendedor": "Livia Ventorim",
         "pctValor": 0.4637,
         "pctQtde": 0.3551
-      },
-      {
-        "vendedor": "André Zucchi",
-        "pctValor": 0.463,
-        "pctQtde": 0.5005
       },
       {
         "vendedor": "Ignacia Acevedo",
@@ -335,8 +335,8 @@
       },
       {
         "vendedor": "Felipe Lobato",
-        "pctValor": 0.4304,
-        "pctQtde": 0.4557
+        "pctValor": 0.4293,
+        "pctQtde": 0.4538
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -355,8 +355,8 @@
       },
       {
         "vendedor": "Renzo Carletti",
-        "pctValor": 0.366,
-        "pctQtde": 0.364
+        "pctValor": 0.3702,
+        "pctQtde": 0.3684
       },
       {
         "vendedor": "Marcelino Camata",
@@ -366,14 +366,14 @@
     ],
     "mesAtual": [
       {
-        "vendedor": "André Zucchi",
-        "pctValor": 0.706,
-        "pctQtde": 0.7452
-      },
-      {
         "vendedor": "Thalys Eccel Kill",
         "pctValor": 0.6861,
         "pctQtde": 0.6381
+      },
+      {
+        "vendedor": "André Zucchi",
+        "pctValor": 0.6433,
+        "pctQtde": 0.6949
       },
       {
         "vendedor": "Enzo Ziviani",
@@ -401,14 +401,14 @@
         "pctQtde": 0.3985
       },
       {
+        "vendedor": "Renzo Carletti",
+        "pctValor": 0.413,
+        "pctQtde": 0.3918
+      },
+      {
         "vendedor": "Manon Fernandez",
         "pctValor": 0.4069,
         "pctQtde": 0.3395
-      },
-      {
-        "vendedor": "Felipe Lobato",
-        "pctValor": 0.4029,
-        "pctQtde": 0.3598
       },
       {
         "vendedor": "Pedro Ribeiro",
@@ -416,9 +416,9 @@
         "pctQtde": 0.3621
       },
       {
-        "vendedor": "Renzo Carletti",
-        "pctValor": 0.3848,
-        "pctQtde": 0.3635
+        "vendedor": "Felipe Lobato",
+        "pctValor": 0.3962,
+        "pctQtde": 0.3505
       },
       {
         "vendedor": "Ignacia Acevedo",
@@ -443,10 +443,10 @@
     "meta": 7600000.0,
     "ritmo": {
       "totalDiasUteis": 21,
-      "diasUteisTranscorridos": 13,
+      "diasUteisTranscorridos": 11,
       "metaDiaria": 361904.76,
-      "recebimentoEsperado": 4704761.9,
-      "pctEsperado": 0.619
+      "recebimentoEsperado": 3980952.38,
+      "pctEsperado": 0.5238
     }
   },
   "r1Atividades": {
@@ -554,10 +554,10 @@
   "destaqueMeta": [],
   "campanhaDirecionamento": {
     "totalDirecionados": 195,
-    "totalAvailable": 159,
-    "totalAccepted": 18,
-    "totalApproval": 8,
-    "totalSold": 10,
+    "totalAvailable": 157,
+    "totalAccepted": 21,
+    "totalApproval": 7,
+    "totalSold": 9,
     "pctAtivacao": 0.0513,
     "vendedores": [
       {
@@ -726,7 +726,7 @@
         "qtdBundlesOfertados": 15
       }
     ],
-    "totalBilled": 0
+    "totalBilled": 1
   },
   "_todosJulhoParaReferencia": [
     {
@@ -826,13 +826,13 @@
       {
         "vendedor": "André Zucchi",
         "qtdes": [
-          2,
           1,
+          0,
           0,
           0,
           0
         ],
-        "total": 3
+        "total": 1
       },
       {
         "vendedor": "Arthur Lodi",
@@ -848,13 +848,13 @@
       {
         "vendedor": "Diego Bitencourt",
         "qtdes": [
-          1,
+          2,
           0,
           0,
           1,
           0
         ],
-        "total": 2
+        "total": 3
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -870,13 +870,13 @@
       {
         "vendedor": "Felipe Lobato",
         "qtdes": [
-          10,
+          9,
           0,
           0,
           3,
           2
         ],
-        "total": 15
+        "total": 14
       },
       {
         "vendedor": "Ignacia Acevedo",
@@ -950,10 +950,10 @@
           2,
           0,
           2,
-          1,
+          0,
           0
         ],
-        "total": 5
+        "total": 4
       },
       {
         "vendedor": "Thalys Eccel Kill",
@@ -970,7 +970,7 @@
     "_nota": "Apenas oportunidades/pedidos com indicador de problema associado."
   },
   "marketing": {
-    "totalSemFoto": 3,
+    "totalSemFoto": 21,
     "porProduto": [
       {
         "produto": "Chantilly | Premium | 3cm",
@@ -1006,6 +1006,7 @@
         "situacao": "Blocked",
         "dataCriacao": "18/08/2026"
       }
-    ]
+    ],
+    "_nota": "Total confirmado via SOQL (21); detalhamento por produto pendente de nova consulta detalhada."
   }
 }
