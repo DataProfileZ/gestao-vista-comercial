@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T15:11:48-03:00",
+    "generatedAt": "2026-08-18T15:21:11-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -132,8 +132,8 @@
     "_notaAno": "Realizado do Ano agora inclui o mês vigente (parcial, até hoje) — não mais restrito a meses fechados."
   },
   "v2Ofertas": {
-    "_nota": "Total de ofertas com email disparado no mês vigente, Holder=Zucchi (fórmula corrigida 19/08/2026).",
-    "totalMes": 1923,
+    "_nota": "Total de ofertas com email disparado no mês vigente, Holder=Zucchi.",
+    "totalMes": 1946,
     "porVendedor": [
       {
         "vendedor": "Felipe Lobato",
@@ -164,12 +164,12 @@
         "qtde": 112
       },
       {
-        "vendedor": "Lara Roncetti",
-        "qtde": 98
+        "vendedor": "Manon Fernandez",
+        "qtde": 102
       },
       {
-        "vendedor": "Manon Fernandez",
-        "qtde": 81
+        "vendedor": "Lara Roncetti",
+        "qtde": 99
       },
       {
         "vendedor": "Renzo Carletti",
@@ -177,7 +177,7 @@
       },
       {
         "vendedor": "Ana Amado",
-        "qtde": 47
+        "qtde": 48
       },
       {
         "vendedor": "André Zucchi",
@@ -223,25 +223,25 @@
     ]
   },
   "v4Reservas": {
-    "anoQtdeItens": 11949,
-    "anoM2": 48180.009,
+    "anoQtdeItens": 11930,
+    "anoM2": 47435.984,
     "_nota": "Snapshot atual + % sobre meta de agosto/2026 por vendedor.",
     "porVendedorPctMetaMes": [
       {
         "vendedor": "Eduardo Gomes",
-        "pct": 2.4369
+        "pct": 2.515
       },
       {
         "vendedor": "Diego Bitencourt",
-        "pct": 1.412
-      },
-      {
-        "vendedor": "Marcelino Camata",
-        "pct": 1.3314
+        "pct": 1.3602
       },
       {
         "vendedor": "Pedro Ribeiro",
-        "pct": 1.2628
+        "pct": 1.2531
+      },
+      {
+        "vendedor": "Marcelino Camata",
+        "pct": 1.2072
       },
       {
         "vendedor": "Enzo Ziviani",
@@ -249,15 +249,7 @@
       },
       {
         "vendedor": "Arthur Lodi",
-        "pct": 0.9773
-      },
-      {
-        "vendedor": "Livia Ventorim",
-        "pct": 0.9622
-      },
-      {
-        "vendedor": "Ana Amado",
-        "pct": 0.941
+        "pct": 0.9681
       },
       {
         "vendedor": "Manon Fernandez",
@@ -265,27 +257,31 @@
       },
       {
         "vendedor": "Lara Roncetti",
-        "pct": 0.8105
+        "pct": 0.8078
       },
       {
         "vendedor": "Felipe Lobato",
-        "pct": 0.7973
+        "pct": 0.7981
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "pct": 0.7699
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "pct": 0.6786
+        "pct": 0.6214
       },
       {
         "vendedor": "Ignacia Acevedo",
-        "pct": 0.5457
+        "pct": 0.5262
       },
       {
         "vendedor": "Renzo Carletti",
-        "pct": 0.468
+        "pct": 0.4649
       },
       {
         "vendedor": "André Zucchi",
-        "pct": 0.3686
+        "pct": 0.423
       }
     ]
   },
@@ -314,8 +310,8 @@
       },
       {
         "vendedor": "Livia Ventorim",
-        "pctValor": 0.4665,
-        "pctQtde": 0.3491
+        "pctValor": 0.4637,
+        "pctQtde": 0.3551
       },
       {
         "vendedor": "André Zucchi",
@@ -328,6 +324,11 @@
         "pctQtde": 0.3069
       },
       {
+        "vendedor": "Ana Amado",
+        "pctValor": 0.4426,
+        "pctQtde": 0.3933
+      },
+      {
         "vendedor": "Diego Bitencourt",
         "pctValor": 0.4349,
         "pctQtde": 0.3874
@@ -336,11 +337,6 @@
         "vendedor": "Felipe Lobato",
         "pctValor": 0.4304,
         "pctQtde": 0.4557
-      },
-      {
-        "vendedor": "Ana Amado",
-        "pctValor": 0.4275,
-        "pctQtde": 0.3783
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -386,8 +382,13 @@
       },
       {
         "vendedor": "Livia Ventorim",
-        "pctValor": 0.539,
-        "pctQtde": 0.4703
+        "pctValor": 0.5096,
+        "pctQtde": 0.4747
+      },
+      {
+        "vendedor": "Ana Amado",
+        "pctValor": 0.4927,
+        "pctQtde": 0.4946
       },
       {
         "vendedor": "Lara Roncetti",
@@ -433,16 +434,6 @@
         "vendedor": "Marcelino Camata",
         "pctValor": 0.2138,
         "pctQtde": 0.107
-      },
-      {
-        "vendedor": "Ana Amado",
-        "pctValor": 0.1774,
-        "pctQtde": 0.185
-      },
-      {
-        "vendedor": "Eduardo Gomes",
-        "pctValor": 0.0,
-        "pctQtde": 0.0
       }
     ]
   },
@@ -822,37 +813,48 @@
     ],
     "vendedores": [
       {
+        "vendedor": "Ana Amado",
+        "qtdes": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 1
+      },
+      {
+        "vendedor": "André Zucchi",
+        "qtdes": [
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "total": 3
+      },
+      {
         "vendedor": "Arthur Lodi",
         "qtdes": [
-          4,
+          2,
           1,
-          4,
+          3,
           6,
           0
         ],
-        "total": 15
+        "total": 12
       },
       {
-        "vendedor": "Felipe Lobato",
+        "vendedor": "Diego Bitencourt",
         "qtdes": [
-          8,
+          1,
           0,
-          3,
-          2,
-          1
-        ],
-        "total": 14
-      },
-      {
-        "vendedor": "Lara Roncetti",
-        "qtdes": [
-          5,
-          2,
-          2,
           0,
-          1
+          1,
+          0
         ],
-        "total": 10
+        "total": 2
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -866,59 +868,37 @@
         "total": 6
       },
       {
-        "vendedor": "Pedro Ribeiro",
+        "vendedor": "Felipe Lobato",
         "qtdes": [
+          10,
           0,
           0,
-          0,
-          6,
-          0
+          3,
+          2
         ],
-        "total": 6
+        "total": 15
       },
       {
-        "vendedor": "Thalys Eccel Kill",
+        "vendedor": "Ignacia Acevedo",
         "qtdes": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 1
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtdes": [
+          5,
+          1,
           3,
           0,
-          0,
-          1,
-          0
+          1
         ],
-        "total": 4
-      },
-      {
-        "vendedor": "Diego Bitencourt",
-        "qtdes": [
-          1,
-          0,
-          1,
-          2,
-          0
-        ],
-        "total": 4
-      },
-      {
-        "vendedor": "Manon Fernandez",
-        "qtdes": [
-          1,
-          1,
-          1,
-          0,
-          0
-        ],
-        "total": 3
-      },
-      {
-        "vendedor": "Renzo Carletti",
-        "qtdes": [
-          1,
-          0,
-          2,
-          0,
-          0
-        ],
-        "total": 3
+        "total": 10
       },
       {
         "vendedor": "Livia Ventorim",
@@ -926,43 +906,21 @@
           0,
           0,
           1,
+          0,
+          0
+        ],
+        "total": 1
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "qtdes": [
+          1,
+          1,
+          1,
           1,
           0
         ],
-        "total": 2
-      },
-      {
-        "vendedor": "Ignacia Acevedo",
-        "qtdes": [
-          2,
-          0,
-          0,
-          0,
-          0
-        ],
-        "total": 2
-      },
-      {
-        "vendedor": "André Zucchi",
-        "qtdes": [
-          1,
-          0,
-          0,
-          1,
-          0
-        ],
-        "total": 2
-      },
-      {
-        "vendedor": "Ana Amado",
-        "qtdes": [
-          2,
-          0,
-          0,
-          0,
-          0
-        ],
-        "total": 2
+        "total": 4
       },
       {
         "vendedor": "Marcelino Camata",
@@ -974,6 +932,39 @@
           0
         ],
         "total": 1
+      },
+      {
+        "vendedor": "Pedro Ribeiro",
+        "qtdes": [
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        "total": 8
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "qtdes": [
+          2,
+          0,
+          2,
+          1,
+          0
+        ],
+        "total": 5
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "qtdes": [
+          3,
+          0,
+          0,
+          1,
+          0
+        ],
+        "total": 4
       }
     ],
     "_nota": "Apenas oportunidades/pedidos com indicador de problema associado."
