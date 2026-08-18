@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T16:13:02-03:00",
+    "generatedAt": "2026-08-18T16:18:14-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -8,7 +8,7 @@
     "ano": [
       {
         "vendedor": "Felipe Lobato",
-        "pct": 1.1284
+        "pct": 1.1306
       },
       {
         "vendedor": "Pedro Ribeiro",
@@ -23,20 +23,24 @@
         "pct": 0.7454
       },
       {
+        "vendedor": "Manon Fernandez",
+        "pct": 0.7424
+      },
+      {
         "vendedor": "Ignacia Acevedo",
         "pct": 0.7117
       },
       {
-        "vendedor": "Enzo Ziviani",
-        "pct": 0.6989
-      },
-      {
         "vendedor": "Diego Bitencourt",
-        "pct": 0.6953
+        "pct": 0.7057
       },
       {
         "vendedor": "Marcelino Camata",
         "pct": 0.6846
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "pct": 0.6706
       },
       {
         "vendedor": "Thalys Eccel Kill",
@@ -47,12 +51,8 @@
         "pct": 0.5804
       },
       {
-        "vendedor": "Manon Fernandez",
-        "pct": 0.4601
-      },
-      {
         "vendedor": "Renzo Carletti",
-        "pct": 0.4162
+        "pct": 0.5301
       },
       {
         "vendedor": "Livia Ventorim",
@@ -64,7 +64,7 @@
       },
       {
         "vendedor": "Ana Amado",
-        "pct": 0.1576
+        "pct": 0.0737
       }
     ],
     "mesAtual": [
@@ -74,7 +74,7 @@
       },
       {
         "vendedor": "Manon Fernandez",
-        "pct": 0.7638
+        "pct": 0.8716
       },
       {
         "vendedor": "Lara Roncetti",
@@ -82,11 +82,15 @@
       },
       {
         "vendedor": "Felipe Lobato",
-        "pct": 0.6249
+        "pct": 0.6782
       },
       {
         "vendedor": "Ignacia Acevedo",
         "pct": 0.5856
+      },
+      {
+        "vendedor": "Renzo Carletti",
+        "pct": 0.5464
       },
       {
         "vendedor": "Marcelino Camata",
@@ -99,10 +103,6 @@
       {
         "vendedor": "Diego Bitencourt",
         "pct": 0.5149
-      },
-      {
-        "vendedor": "Renzo Carletti",
-        "pct": 0.4806
       },
       {
         "vendedor": "Enzo Ziviani",
@@ -122,14 +122,14 @@
       },
       {
         "vendedor": "Ana Amado",
-        "pct": 0.1576
+        "pct": 0.0737
       },
       {
         "vendedor": "Eduardo Gomes",
         "pct": 0.0
       }
     ],
-    "_notaAno": "Realizado do Ano agora inclui o mês vigente (parcial, até hoje) — não mais restrito a meses fechados."
+    "_notaAno": "Realizado do Ano via Order.Owner (quem processou o pedido na época), não Account.Owner (dono atual da conta) — corrigido 19/08/2026, pois reatribuição de carteira distorcia o resultado de vendedores que perderam contas ao longo do ano."
   },
   "v2Ofertas": {
     "_nota": "Total de ofertas com email disparado no mês vigente, Holder=Zucchi.",
