@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T12:05:58-03:00",
+    "generatedAt": "2026-08-18T12:20:46-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -132,52 +132,52 @@
     "_notaAno": "Realizado do Ano agora inclui o mês vigente (parcial, até hoje) — não mais restrito a meses fechados."
   },
   "v2Ofertas": {
-    "_nota": "Total de ofertas enviadas no mês vigente (agosto/2026), independente de direcionamento.",
-    "totalMes": 1805,
+    "_nota": "Total de ofertas com email disparado no mês vigente, Holder=Zucchi (fórmula corrigida 19/08/2026).",
+    "totalMes": 1923,
     "porVendedor": [
       {
         "vendedor": "Felipe Lobato",
-        "qtde": 281
+        "qtde": 300
       },
       {
         "vendedor": "Ignacia Acevedo",
-        "qtde": 278
+        "qtde": 293
       },
       {
         "vendedor": "Pedro Ribeiro",
-        "qtde": 224
-      },
-      {
-        "vendedor": "Livia Ventorim",
-        "qtde": 198
+        "qtde": 240
       },
       {
         "vendedor": "Diego Bitencourt",
-        "qtde": 167
+        "qtde": 236
+      },
+      {
+        "vendedor": "Livia Ventorim",
+        "qtde": 206
       },
       {
         "vendedor": "Enzo Ziviani",
-        "qtde": 137
+        "qtde": 149
       },
       {
         "vendedor": "Arthur Lodi",
-        "qtde": 113
+        "qtde": 112
       },
       {
         "vendedor": "Lara Roncetti",
-        "qtde": 99
+        "qtde": 98
       },
       {
         "vendedor": "Manon Fernandez",
-        "qtde": 88
-      },
-      {
-        "vendedor": "Ana Amado",
-        "qtde": 58
+        "qtde": 81
       },
       {
         "vendedor": "Renzo Carletti",
         "qtde": 57
+      },
+      {
+        "vendedor": "Ana Amado",
+        "qtde": 47
       },
       {
         "vendedor": "André Zucchi",
@@ -189,7 +189,7 @@
       },
       {
         "vendedor": "Marcelino Camata",
-        "qtde": 14
+        "qtde": 13
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -989,16 +989,8 @@
     "_nota": "Apenas oportunidades/pedidos com indicador de problema associado."
   },
   "marketing": {
-    "totalSemFoto": 63,
+    "totalSemFoto": 37,
     "porProduto": [
-      {
-        "produto": "Brownie | Premium | 2cm",
-        "qtde": 6
-      },
-      {
-        "produto": "Cappuccino | Premium | 3cm",
-        "qtde": 7
-      },
       {
         "produto": "Chantilly | Premium | 3cm",
         "qtde": 1
@@ -1008,24 +1000,12 @@
         "qtde": 7
       },
       {
-        "produto": "Macchia Vecchia | Premium | 2cm",
-        "qtde": 7
-      },
-      {
-        "produto": "Mona Lisa | Premium | 2cm",
-        "qtde": 6
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "qtde": 8
-      },
-      {
         "produto": "Phoenix Black | Premium | 2cm",
         "qtde": 6
       },
       {
         "produto": "Taj Mahal | Premium | 2cm",
-        "qtde": 6
+        "qtde": 14
       },
       {
         "produto": "Taj Mahal | Premium | 3cm",
@@ -1034,116 +1014,28 @@
     ],
     "registros": [
       {
-        "produto": "Brownie | Premium | 2cm",
-        "bloco": "221103",
-        "code": "BD00207061",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Brownie | Premium | 2cm",
-        "bloco": "221103",
-        "code": "BD00207060",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Brownie | Premium | 2cm",
-        "bloco": "221103",
-        "code": "BD00207069",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Brownie | Premium | 2cm",
-        "bloco": "221103",
-        "code": "BD00207062",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Brownie | Premium | 2cm",
-        "bloco": "221103",
-        "code": "BD00207063",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Brownie | Premium | 2cm",
-        "bloco": "221103",
-        "code": "BD00207059",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Cappuccino | Premium | 3cm",
-        "bloco": "220698",
-        "code": "BD00206937",
-        "localizacao": "G6B017",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Cappuccino | Premium | 3cm",
-        "bloco": "220698",
-        "code": "BD00206849",
-        "localizacao": "G6B017",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Cappuccino | Premium | 3cm",
-        "bloco": "220698",
-        "code": "BD00206848",
-        "localizacao": "G6B017",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Cappuccino | Premium | 3cm",
-        "bloco": "220698",
-        "code": "BD00206846",
-        "localizacao": "G6B017",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Cappuccino | Premium | 3cm",
-        "bloco": "220698",
-        "code": "BD00206842",
-        "localizacao": "G6B017",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Cappuccino | Premium | 3cm",
-        "bloco": "220698",
-        "code": "BD00206938",
-        "localizacao": "G6B017",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Cappuccino | Premium | 3cm",
-        "bloco": "220698",
-        "code": "BD00206843",
-        "localizacao": "G6B017",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
         "produto": "Chantilly | Premium | 3cm",
         "bloco": "220641",
         "code": "BD00207227",
         "localizacao": "G6B031",
         "situacao": "Blocked",
         "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206953",
+        "localizacao": "G5A035",
+        "situacao": "Blocked",
+        "dataCriacao": "17/08/2026"
+      },
+      {
+        "produto": "Iluminato | Premium | 2cm",
+        "bloco": "209257",
+        "code": "BD00206499",
+        "localizacao": "G5A035",
+        "situacao": "Blocked",
+        "dataCriacao": "17/08/2026"
       },
       {
         "produto": "Iluminato | Premium | 2cm",
@@ -1186,193 +1078,9 @@
         "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Iluminato | Premium | 2cm",
-        "bloco": "209257",
-        "code": "BD00206953",
-        "localizacao": "G5A035",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Iluminato | Premium | 2cm",
-        "bloco": "209257",
-        "code": "BD00206499",
-        "localizacao": "G5A035",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Macchia Vecchia | Premium | 2cm",
-        "bloco": "220826",
-        "code": "BD00206916",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Macchia Vecchia | Premium | 2cm",
-        "bloco": "220826",
-        "code": "BD00206915",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Macchia Vecchia | Premium | 2cm",
-        "bloco": "220826",
-        "code": "BD00206911",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Macchia Vecchia | Premium | 2cm",
-        "bloco": "220826",
-        "code": "BD00206913",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Macchia Vecchia | Premium | 2cm",
-        "bloco": "220826",
-        "code": "BD00206912",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Macchia Vecchia | Premium | 2cm",
-        "bloco": "220826",
-        "code": "BD00206917",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Macchia Vecchia | Premium | 2cm",
-        "bloco": "220826",
-        "code": "BD00206914",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "10/08/2026"
-      },
-      {
-        "produto": "Mona Lisa | Premium | 2cm",
-        "bloco": "220914",
-        "code": "BD00207053",
-        "localizacao": "S1A015",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Mona Lisa | Premium | 2cm",
-        "bloco": "220914",
-        "code": "BD00207055",
-        "localizacao": "S1A015",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Mona Lisa | Premium | 2cm",
-        "bloco": "220914",
-        "code": "BD00207058",
-        "localizacao": "S1A015",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Mona Lisa | Premium | 2cm",
-        "bloco": "220914",
-        "code": "BD00207057",
-        "localizacao": "S1A015",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Mona Lisa | Premium | 2cm",
-        "bloco": "220914",
-        "code": "BD00207056",
-        "localizacao": "S1A015",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Mona Lisa | Premium | 2cm",
-        "bloco": "220914",
-        "code": "BD00207052",
-        "localizacao": "S1A015",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "bloco": "209251",
-        "code": "BD00207102",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "bloco": "209251",
-        "code": "BD00207104",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "bloco": "209251",
-        "code": "BD00207098",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "bloco": "209251",
-        "code": "BD00207103",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "bloco": "209251",
-        "code": "BD00207100",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "bloco": "209251",
-        "code": "BD00207101",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "bloco": "209251",
-        "code": "BD00207099",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Negresco | Premium | 3cm",
-        "bloco": "209251",
-        "code": "BD00207097",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
         "produto": "Phoenix Black | Premium | 2cm",
         "bloco": "221753",
-        "code": "BD00206984",
+        "code": "BD00207042",
         "localizacao": "G5A007",
         "situacao": "Blocked",
         "dataCriacao": "17/08/2026"
@@ -1388,7 +1096,15 @@
       {
         "produto": "Phoenix Black | Premium | 2cm",
         "bloco": "221753",
-        "code": "BD00207042",
+        "code": "BD00206984",
+        "localizacao": "G5A007",
+        "situacao": "Blocked",
+        "dataCriacao": "17/08/2026"
+      },
+      {
+        "produto": "Phoenix Black | Premium | 2cm",
+        "bloco": "221753",
+        "code": "BD00207041",
         "localizacao": "G5A007",
         "situacao": "Blocked",
         "dataCriacao": "17/08/2026"
@@ -1410,42 +1126,10 @@
         "dataCriacao": "17/08/2026"
       },
       {
-        "produto": "Phoenix Black | Premium | 2cm",
-        "bloco": "221753",
-        "code": "BD00207041",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "17/08/2026"
-      },
-      {
         "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221741",
-        "code": "BD00207160",
-        "localizacao": "-",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221741",
-        "code": "BD00207159",
-        "localizacao": "-",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221741",
-        "code": "BD00207162",
-        "localizacao": "-",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221741",
-        "code": "BD00207164",
-        "localizacao": "-",
+        "bloco": "221048",
+        "code": "BD00207232",
+        "localizacao": "TRANSFER",
         "situacao": "Blocked",
         "dataCriacao": "18/08/2026"
       },
@@ -1453,7 +1137,15 @@
         "produto": "Taj Mahal | Premium | 2cm",
         "bloco": "221741",
         "code": "BD00207161",
-        "localizacao": "-",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221048",
+        "code": "BD00207228",
+        "localizacao": "TRANSFER",
         "situacao": "Blocked",
         "dataCriacao": "18/08/2026"
       },
@@ -1461,31 +1153,95 @@
         "produto": "Taj Mahal | Premium | 2cm",
         "bloco": "221741",
         "code": "BD00207163",
-        "localizacao": "-",
+        "localizacao": "G5B007",
         "situacao": "Blocked",
         "dataCriacao": "18/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "208298",
-        "code": "BD00207124",
-        "localizacao": "G6B014",
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221048",
+        "code": "BD00207224",
+        "localizacao": "TRANSFER",
         "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221048",
+        "code": "BD00207229",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221048",
+        "code": "BD00207231",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221048",
+        "code": "BD00207225",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221048",
+        "code": "BD00207230",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221048",
+        "code": "BD00207226",
+        "localizacao": "TRANSFER",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221741",
+        "code": "BD00207159",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221741",
+        "code": "BD00207160",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221741",
+        "code": "BD00207164",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 2cm",
+        "bloco": "221741",
+        "code": "BD00207162",
+        "localizacao": "G5B007",
+        "situacao": "Blocked",
+        "dataCriacao": "18/08/2026"
       },
       {
         "produto": "Taj Mahal | Premium | 3cm",
         "bloco": "208652",
         "code": "BD00207122",
         "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "208298",
-        "code": "BD00207125",
-        "localizacao": "G6B014",
         "situacao": "Blocked",
         "dataCriacao": "15/08/2026"
       },
@@ -1499,16 +1255,8 @@
       },
       {
         "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "208298",
-        "code": "BD00207127",
-        "localizacao": "G6B014",
-        "situacao": "Blocked",
-        "dataCriacao": "15/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
         "bloco": "208652",
-        "code": "BD00207121",
+        "code": "BD00207119",
         "localizacao": "TRANSFER",
         "situacao": "Blocked",
         "dataCriacao": "15/08/2026"
@@ -1524,7 +1272,7 @@
       {
         "produto": "Taj Mahal | Premium | 3cm",
         "bloco": "208652",
-        "code": "BD00207119",
+        "code": "BD00207121",
         "localizacao": "TRANSFER",
         "situacao": "Blocked",
         "dataCriacao": "15/08/2026"
@@ -1532,7 +1280,31 @@
       {
         "produto": "Taj Mahal | Premium | 3cm",
         "bloco": "208298",
+        "code": "BD00207127",
+        "localizacao": "G6B014",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "208298",
         "code": "BD00207126",
+        "localizacao": "G6B014",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "208298",
+        "code": "BD00207125",
+        "localizacao": "G6B014",
+        "situacao": "Blocked",
+        "dataCriacao": "15/08/2026"
+      },
+      {
+        "produto": "Taj Mahal | Premium | 3cm",
+        "bloco": "208298",
+        "code": "BD00207124",
         "localizacao": "G6B014",
         "situacao": "Blocked",
         "dataCriacao": "15/08/2026"
