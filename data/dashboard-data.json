@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T16:18:14-03:00",
+    "generatedAt": "2026-08-18T16:26:36-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -129,7 +129,7 @@
         "pct": 0.0
       }
     ],
-    "_notaAno": "Realizado do Ano via Order.Owner (quem processou o pedido na época), não Account.Owner (dono atual da conta) — corrigido 19/08/2026, pois reatribuição de carteira distorcia o resultado de vendedores que perderam contas ao longo do ano."
+    "_notaAno": "Realizado calculado via Order.Owner (quem processou o pedido), não Account.Owner — corrigido em 19/08/2026 porque Account.Owner subestimava vendedores com contas reatribuídas ao longo do ano (ex.: Manon Fernandez). Inclui mês vigente parcial."
   },
   "v2Ofertas": {
     "_nota": "Total de ofertas com email disparado no mês vigente, Holder=Zucchi.",
