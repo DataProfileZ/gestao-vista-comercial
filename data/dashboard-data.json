@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T11:36:58-03:00",
+    "generatedAt": "2026-08-18T11:47:53-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -8,7 +8,7 @@
     "ano": [
       {
         "vendedor": "Felipe Lobato",
-        "pct": 1.1163
+        "pct": 1.1284
       },
       {
         "vendedor": "Pedro Ribeiro",
@@ -20,7 +20,7 @@
       },
       {
         "vendedor": "Lara Roncetti",
-        "pct": 0.7205
+        "pct": 0.7454
       },
       {
         "vendedor": "Ignacia Acevedo",
@@ -36,15 +36,15 @@
       },
       {
         "vendedor": "Enzo Ziviani",
-        "pct": 0.6672
+        "pct": 0.6777
+      },
+      {
+        "vendedor": "Thalys Eccel Kill",
+        "pct": 0.5808
       },
       {
         "vendedor": "André Zucchi",
         "pct": 0.5804
-      },
-      {
-        "vendedor": "Thalys Eccel Kill",
-        "pct": 0.5747
       },
       {
         "vendedor": "Manon Fernandez",
@@ -52,7 +52,7 @@
       },
       {
         "vendedor": "Renzo Carletti",
-        "pct": 0.4076
+        "pct": 0.4162
       },
       {
         "vendedor": "Livia Ventorim",
@@ -128,7 +128,8 @@
         "vendedor": "Eduardo Gomes",
         "pct": 0.0
       }
-    ]
+    ],
+    "_notaAno": "Realizado do Ano agora inclui o mês vigente (parcial, até hoje) — não mais restrito a meses fechados."
   },
   "v2Ofertas": {
     "_nota": "Total de ofertas enviadas no mês vigente (agosto/2026).",
