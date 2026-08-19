@@ -443,10 +443,10 @@ function renderScreenCampanhaDirecionamento(){
     "Com resultado": "status-meta-atingida"
   };
 
-  let html = `<thead><tr><th>Vendedor</th><th class="num">Available</th><th class="num">Accepted</th><th class="num">Approval</th><th class="num">Sold</th><th class="num">Total</th><th class="num">Qtd Contas Ofertas</th><th class="num">Qtd Bundles Ofertados</th><th>Status</th></tr></thead><tbody>`;
+  let html = `<thead><tr><th>Vendedor</th><th class="num">Available</th><th class="num">Accepted</th><th class="num">Approval</th><th class="num">Sold</th><th class="num">Billed</th><th class="num">Total</th><th class="num">Qtd Contas Ofertas</th><th class="num">Qtd Bundles Ofertados</th><th>Status</th></tr></thead><tbody>`;
   cd.vendedores.forEach(v=>{
     const cls = statusClass[v.status] || "status-sem-resultado";
-    html += `<tr><td>${v.vendedor}</td><td class="num">${v.available}</td><td class="num">${v.accepted}</td><td class="num">${v.approval}</td><td class="num">${v.sold}</td><td class="num">${v.total}</td><td class="num">${fmtInt(v.qtdContasOfertas||0)}</td><td class="num">${fmtInt(v.qtdBundlesOfertados||0)}</td><td><span class="status-badge ${cls}">${v.status}</span></td></tr>`;
+    html += `<tr><td>${v.vendedor}</td><td class="num">${v.available}</td><td class="num">${v.accepted}</td><td class="num">${v.approval}</td><td class="num">${v.sold}</td><td class="num">${v.billed||0}</td><td class="num">${v.total}</td><td class="num">${fmtInt(v.qtdContasOfertas||0)}</td><td class="num">${fmtInt(v.qtdBundlesOfertados||0)}</td><td><span class="status-badge ${cls}">${v.status}</span></td></tr>`;
   });
   html += "</tbody>";
   table.innerHTML = html;
