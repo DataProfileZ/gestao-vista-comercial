@@ -427,6 +427,7 @@ function renderScreenCampanhaDirecionamento(){
     document.getElementById("cd-accepted").textContent = "—";
     document.getElementById("cd-approval").textContent = "—";
     document.getElementById("cd-sold").textContent = "—";
+    document.getElementById("cd-billed").textContent = "—";
     document.getElementById("cd-ativacao").textContent = "—";
     return;
   }
@@ -435,6 +436,7 @@ function renderScreenCampanhaDirecionamento(){
   document.getElementById("cd-accepted").textContent = fmtInt(cd.totalAccepted);
   document.getElementById("cd-approval").textContent = fmtInt(cd.totalApproval);
   document.getElementById("cd-sold").textContent = fmtInt(cd.totalSold);
+  document.getElementById("cd-billed").textContent = fmtInt(cd.totalBilled||0);
   document.getElementById("cd-ativacao").textContent = fmtPct(cd.pctAtivacao);
 
   const statusClass = {
