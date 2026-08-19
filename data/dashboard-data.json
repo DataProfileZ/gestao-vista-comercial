@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-19T09:24:58-03:00",
+    "generatedAt": "2026-08-19T11:38:25-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -77,12 +77,12 @@
         "pct": 0.8716
       },
       {
-        "vendedor": "Lara Roncetti",
-        "pct": 0.7402
+        "vendedor": "Felipe Lobato",
+        "pct": 0.7863
       },
       {
-        "vendedor": "Felipe Lobato",
-        "pct": 0.6782
+        "vendedor": "Lara Roncetti",
+        "pct": 0.7787
       },
       {
         "vendedor": "Ignacia Acevedo",
@@ -114,7 +114,7 @@
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "pct": 0.296
+        "pct": 0.3609
       },
       {
         "vendedor": "André Zucchi",
@@ -133,7 +133,7 @@
   },
   "v2Ofertas": {
     "_nota": "Total de ofertas com email disparado no mês vigente, Holder=Zucchi.",
-    "totalMes": 2046,
+    "totalMes": 2153,
     "porVendedor": [
       {
         "vendedor": "Felipe Lobato",
@@ -144,12 +144,12 @@
         "qtde": 293
       },
       {
-        "vendedor": "Pedro Ribeiro",
-        "qtde": 272
+        "vendedor": "Diego Bitencourt",
+        "qtde": 290
       },
       {
-        "vendedor": "Diego Bitencourt",
-        "qtde": 237
+        "vendedor": "Pedro Ribeiro",
+        "qtde": 272
       },
       {
         "vendedor": "Livia Ventorim",
@@ -157,7 +157,7 @@
       },
       {
         "vendedor": "Enzo Ziviani",
-        "qtde": 167
+        "qtde": 182
       },
       {
         "vendedor": "Lara Roncetti",
@@ -172,6 +172,10 @@
         "qtde": 103
       },
       {
+        "vendedor": "Thalys Eccel Kill",
+        "qtde": 78
+      },
+      {
         "vendedor": "Renzo Carletti",
         "qtde": 61
       },
@@ -184,12 +188,8 @@
         "qtde": 45
       },
       {
-        "vendedor": "Thalys Eccel Kill",
-        "qtde": 42
-      },
-      {
         "vendedor": "Marcelino Camata",
-        "qtde": 13
+        "qtde": 16
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -198,7 +198,7 @@
     ]
   },
   "v3Containers": {
-    "qtdeSemana": 31,
+    "qtdeSemana": 33,
     "porDia": [
       {
         "dia": "17/08",
@@ -214,7 +214,7 @@
       },
       {
         "dia": "20/08",
-        "qtde": 1
+        "qtde": 3
       },
       {
         "dia": "21/08",
@@ -223,7 +223,7 @@
     ]
   },
   "v4Reservas": {
-    "anoQtdeItens": 11996,
+    "anoQtdeItens": 11989,
     "anoM2": 47435.984,
     "_nota": "Snapshot atual + % sobre meta de agosto/2026 por vendedor.",
     "porVendedorPctMetaMes": [
@@ -438,8 +438,8 @@
     ]
   },
   "v5Recebimento": {
-    "pctMeta": 0.3833,
-    "valorValidado": 2913333.38,
+    "pctMeta": 0.3864,
+    "valorValidado": 2936937.21,
     "meta": 7600000.0,
     "ritmo": {
       "totalDiasUteis": 21,
@@ -559,12 +559,12 @@
   "destaqueMeta": [],
   "campanhaDirecionamento": {
     "totalDirecionados": 195,
-    "totalAvailable": 157,
-    "totalAccepted": 21,
+    "totalAvailable": 154,
+    "totalAccepted": 22,
     "totalApproval": 7,
-    "totalSold": 9,
-    "totalBilled": 1,
-    "pctAtivacao": 0.0513,
+    "totalSold": 7,
+    "totalBilled": 5,
+    "pctAtivacao": 0.0615,
     "vendedores": [
       {
         "vendedor": "Felipe Lobato",
@@ -572,7 +572,7 @@
         "accepted": 0,
         "approval": 7,
         "sold": 7,
-        "billed": 1,
+        "billed": 4,
         "total": 15,
         "status": "Com resultado",
         "qtdContasOfertas": 29,
@@ -584,7 +584,7 @@
         "accepted": 1,
         "approval": 0,
         "sold": 1,
-        "billed": 0,
+        "billed": 1,
         "total": 15,
         "status": "Com resultado",
         "qtdContasOfertas": 32,
@@ -990,129 +990,53 @@
     "_nota": "Apenas oportunidades/pedidos com indicador de problema associado."
   },
   "marketing": {
-    "totalSemFoto": 14,
+    "totalSemFoto": 5,
     "porProduto": [
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "qtde": 8
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "qtde": 6
+        "produto": "Crystal Frost | Premium | 2cm",
+        "qtde": 5
       }
     ],
     "registros": [
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221732",
-        "code": "BD00207180",
-        "localizacao": "G5A007",
+        "produto": "Crystal Frost | Premium | 2cm",
+        "bloco": "209041",
+        "code": "BD00207186",
+        "localizacao": "G5B026",
         "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
+        "dataCriacao": "19/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221732",
-        "code": "BD00207177",
-        "localizacao": "G5A007",
+        "produto": "Crystal Frost | Premium | 2cm",
+        "bloco": "209041",
+        "code": "BD00207187",
+        "localizacao": "G5B026",
         "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
+        "dataCriacao": "19/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221732",
-        "code": "BD00207178",
-        "localizacao": "G5A007",
+        "produto": "Crystal Frost | Premium | 2cm",
+        "bloco": "209041",
+        "code": "BD00207190",
+        "localizacao": "G5B026",
         "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
+        "dataCriacao": "19/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "221732",
-        "code": "BD00207179",
-        "localizacao": "G5A007",
+        "produto": "Crystal Frost | Premium | 2cm",
+        "bloco": "209041",
+        "code": "BD00207188",
+        "localizacao": "G5B026",
         "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
+        "dataCriacao": "19/08/2026"
       },
       {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "220728",
-        "code": "BD00207181",
-        "localizacao": "G5A007",
+        "produto": "Crystal Frost | Premium | 2cm",
+        "bloco": "209041",
+        "code": "BD00207189",
+        "localizacao": "G5B026",
         "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "220728",
-        "code": "BD00207184",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "220728",
-        "code": "BD00207185",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 2cm",
-        "bloco": "220728",
-        "code": "BD00207182",
-        "localizacao": "G5A007",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "220989",
-        "code": "BD00207145",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "220977",
-        "code": "BD00207168",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "220989",
-        "code": "BD00207146",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "220989",
-        "code": "BD00207142",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "220989",
-        "code": "BD00207144",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
-      },
-      {
-        "produto": "Taj Mahal | Premium | 3cm",
-        "bloco": "220977",
-        "code": "BD00207170",
-        "localizacao": "TRANSFER",
-        "situacao": "Blocked",
-        "dataCriacao": "18/08/2026"
+        "dataCriacao": "19/08/2026"
       }
     ]
   }
