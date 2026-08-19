@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T18:00:17-03:00",
+    "generatedAt": "2026-08-19T08:52:31-03:00",
     "source": "REAL — Salesforce via MCP (Fase 9)",
     "period": "Agosto/2026"
   },
@@ -132,12 +132,12 @@
     "_notaAno": "Realizado calculado via Order.Owner (quem processou o pedido), não Account.Owner — corrigido em 19/08/2026 porque Account.Owner subestimava vendedores com contas reatribuídas ao longo do ano (ex.: Manon Fernandez). Inclui mês vigente parcial."
   },
   "v2Ofertas": {
-    "_nota": "Total geral confirmado via SOQL (2.005); breakdown por vendedor da última coleta detalhada (19/08), pode estar levemente desatualizado no detalhe.",
-    "totalMes": 2005,
+    "_nota": "Total de ofertas com email disparado no mês vigente, Holder=Zucchi.",
+    "totalMes": 2046,
     "porVendedor": [
       {
         "vendedor": "Felipe Lobato",
-        "qtde": 300
+        "qtde": 307
       },
       {
         "vendedor": "Ignacia Acevedo",
@@ -145,11 +145,11 @@
       },
       {
         "vendedor": "Pedro Ribeiro",
-        "qtde": 240
+        "qtde": 272
       },
       {
         "vendedor": "Diego Bitencourt",
-        "qtde": 236
+        "qtde": 237
       },
       {
         "vendedor": "Livia Ventorim",
@@ -157,27 +157,27 @@
       },
       {
         "vendedor": "Enzo Ziviani",
-        "qtde": 149
-      },
-      {
-        "vendedor": "Arthur Lodi",
-        "qtde": 112
-      },
-      {
-        "vendedor": "Manon Fernandez",
-        "qtde": 102
+        "qtde": 167
       },
       {
         "vendedor": "Lara Roncetti",
-        "qtde": 99
+        "qtde": 127
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "qtde": 115
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "qtde": 103
       },
       {
         "vendedor": "Renzo Carletti",
-        "qtde": 57
+        "qtde": 61
       },
       {
         "vendedor": "Ana Amado",
-        "qtde": 48
+        "qtde": 52
       },
       {
         "vendedor": "André Zucchi",
@@ -185,7 +185,7 @@
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "qtde": 40
+        "qtde": 42
       },
       {
         "vendedor": "Marcelino Camata",
@@ -223,7 +223,7 @@
     ]
   },
   "v4Reservas": {
-    "anoQtdeItens": 11930,
+    "anoQtdeItens": 11996,
     "anoM2": 47435.984,
     "_nota": "Snapshot atual + % sobre meta de agosto/2026 por vendedor.",
     "porVendedorPctMetaMes": [
@@ -233,11 +233,11 @@
       },
       {
         "vendedor": "Diego Bitencourt",
-        "pct": 1.3602
+        "pct": 1.5955
       },
       {
         "vendedor": "Pedro Ribeiro",
-        "pct": 1.2531
+        "pct": 1.3153
       },
       {
         "vendedor": "Marcelino Camata",
@@ -249,19 +249,19 @@
       },
       {
         "vendedor": "Arthur Lodi",
-        "pct": 0.9681
-      },
-      {
-        "vendedor": "Manon Fernandez",
-        "pct": 0.8345
-      },
-      {
-        "vendedor": "Lara Roncetti",
-        "pct": 0.8078
+        "pct": 1.0589
       },
       {
         "vendedor": "Felipe Lobato",
-        "pct": 0.7981
+        "pct": 0.9286
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "pct": 0.9151
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "pct": 0.8363
       },
       {
         "vendedor": "Livia Ventorim",
@@ -269,19 +269,19 @@
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "pct": 0.6214
-      },
-      {
-        "vendedor": "Ignacia Acevedo",
-        "pct": 0.5262
+        "pct": 0.624
       },
       {
         "vendedor": "Renzo Carletti",
-        "pct": 0.4649
+        "pct": 0.5876
+      },
+      {
+        "vendedor": "Ignacia Acevedo",
+        "pct": 0.5814
       },
       {
         "vendedor": "André Zucchi",
-        "pct": 0.423
+        "pct": 0.0267
       }
     ]
   },
@@ -491,63 +491,68 @@
     ]
   },
   "r2Taj": {
-    "qtdeItens": 60,
-    "mediaDias": 19.7,
+    "qtdeItens": 113,
+    "mediaDias": 14.3,
     "porVendedor": [
       {
         "vendedor": "Diego Bitencourt",
-        "qtde": 14,
-        "mediaDias": 26.0
+        "qtde": 24,
+        "mediaDias": 18.7
       },
       {
         "vendedor": "Ana Amado",
-        "qtde": 8,
-        "mediaDias": 14.0
+        "qtde": 15,
+        "mediaDias": 11.3
+      },
+      {
+        "vendedor": "Manon Fernandez",
+        "qtde": 15,
+        "mediaDias": 11.3
+      },
+      {
+        "vendedor": "Lara Roncetti",
+        "qtde": 13,
+        "mediaDias": 11.8
+      },
+      {
+        "vendedor": "Arthur Lodi",
+        "qtde": 13,
+        "mediaDias": 11.5
       },
       {
         "vendedor": "Renzo Carletti",
         "qtde": 8,
-        "mediaDias": 14.0
+        "mediaDias": 15.0
       },
       {
-        "vendedor": "Manon Fernandez",
-        "qtde": 8,
-        "mediaDias": 14.0
+        "vendedor": "Eduardo Gomes",
+        "qtde": 7,
+        "mediaDias": 19.9
+      },
+      {
+        "vendedor": "Felipe Lobato",
+        "qtde": 4,
+        "mediaDias": 7.0
       },
       {
         "vendedor": "Thalys Eccel Kill",
         "qtde": 4,
-        "mediaDias": 14.0
-      },
-      {
-        "vendedor": "Enzo Ziviani",
-        "qtde": 4,
-        "mediaDias": 14.0
+        "mediaDias": 15.0
       },
       {
         "vendedor": "Marcelino Camata",
         "qtde": 4,
-        "mediaDias": 14.0
+        "mediaDias": 15.0
       },
       {
-        "vendedor": "Eduardo Gomes",
-        "qtde": 3,
-        "mediaDias": 36.0
-      },
-      {
-        "vendedor": "Lara Roncetti",
-        "qtde": 3,
-        "mediaDias": 27.0
-      },
-      {
-        "vendedor": "Arthur Lodi",
-        "qtde": 2,
-        "mediaDias": 35.0
+        "vendedor": "Enzo Ziviani",
+        "qtde": 4,
+        "mediaDias": 15.0
       },
       {
         "vendedor": "Pedro Ribeiro",
         "qtde": 2,
-        "mediaDias": 27.0
+        "mediaDias": 28.0
       }
     ]
   },
@@ -558,6 +563,7 @@
     "totalAccepted": 21,
     "totalApproval": 7,
     "totalSold": 9,
+    "totalBilled": 1,
     "pctAtivacao": 0.0513,
     "vendedores": [
       {
@@ -565,21 +571,11 @@
         "available": 0,
         "accepted": 0,
         "approval": 7,
-        "sold": 8,
+        "sold": 7,
+        "billed": 1,
         "total": 15,
         "status": "Com resultado",
         "qtdContasOfertas": 29,
-        "qtdBundlesOfertados": 15
-      },
-      {
-        "vendedor": "Ignacia Acevedo",
-        "available": 8,
-        "accepted": 6,
-        "approval": 0,
-        "sold": 1,
-        "total": 15,
-        "status": "Com resultado",
-        "qtdContasOfertas": 97,
         "qtdBundlesOfertados": 15
       },
       {
@@ -588,20 +584,22 @@
         "accepted": 1,
         "approval": 0,
         "sold": 1,
+        "billed": 0,
         "total": 15,
         "status": "Com resultado",
         "qtdContasOfertas": 32,
         "qtdBundlesOfertados": 15
       },
       {
-        "vendedor": "Renzo Carletti",
-        "available": 12,
-        "accepted": 2,
-        "approval": 1,
+        "vendedor": "Ignacia Acevedo",
+        "available": 8,
+        "accepted": 5,
+        "approval": 0,
         "sold": 0,
-        "total": 15,
+        "billed": 0,
+        "total": 13,
         "status": "Em andamento",
-        "qtdContasOfertas": 45,
+        "qtdContasOfertas": 93,
         "qtdBundlesOfertados": 15
       },
       {
@@ -610,9 +608,10 @@
         "accepted": 5,
         "approval": 0,
         "sold": 0,
+        "billed": 0,
         "total": 15,
         "status": "Em andamento",
-        "qtdContasOfertas": 22,
+        "qtdContasOfertas": 23,
         "qtdBundlesOfertados": 15
       },
       {
@@ -621,6 +620,7 @@
         "accepted": 3,
         "approval": 0,
         "sold": 0,
+        "billed": 0,
         "total": 15,
         "status": "Em andamento",
         "qtdContasOfertas": 42,
@@ -632,29 +632,32 @@
         "accepted": 2,
         "approval": 0,
         "sold": 0,
+        "billed": 0,
         "total": 14,
         "status": "Em andamento",
         "qtdContasOfertas": 17,
         "qtdBundlesOfertados": 15
       },
       {
-        "vendedor": "Enzo Ziviani",
-        "available": 15,
+        "vendedor": "Renzo Carletti",
+        "available": 14,
         "accepted": 1,
         "approval": 0,
         "sold": 0,
-        "total": 16,
+        "billed": 0,
+        "total": 15,
         "status": "Em andamento",
-        "qtdContasOfertas": 25,
+        "qtdContasOfertas": 45,
         "qtdBundlesOfertados": 15
       },
       {
         "vendedor": "Thalys Eccel Kill",
-        "available": 15,
+        "available": 13,
         "accepted": 0,
         "approval": 0,
         "sold": 0,
-        "total": 15,
+        "billed": 0,
+        "total": 13,
         "status": "Sem resultado",
         "qtdContasOfertas": 31,
         "qtdBundlesOfertados": 15
@@ -665,6 +668,7 @@
         "accepted": 0,
         "approval": 0,
         "sold": 0,
+        "billed": 0,
         "total": 15,
         "status": "Sem resultado",
         "qtdContasOfertas": 38,
@@ -676,18 +680,20 @@
         "accepted": 0,
         "approval": 0,
         "sold": 0,
+        "billed": 0,
         "total": 15,
         "status": "Sem resultado",
-        "qtdContasOfertas": 87,
+        "qtdContasOfertas": 86,
         "qtdBundlesOfertados": 15
       },
       {
         "vendedor": "Marcelino Camata",
-        "available": 15,
+        "available": 13,
         "accepted": 0,
         "approval": 0,
         "sold": 0,
-        "total": 15,
+        "billed": 0,
+        "total": 13,
         "status": "Sem resultado",
         "qtdContasOfertas": 111,
         "qtdBundlesOfertados": 15
@@ -698,10 +704,23 @@
         "accepted": 0,
         "approval": 0,
         "sold": 0,
+        "billed": 0,
         "total": 0,
         "status": "Sem resultado",
         "qtdContasOfertas": 0,
         "qtdBundlesOfertados": 0
+      },
+      {
+        "vendedor": "Enzo Ziviani",
+        "available": 15,
+        "accepted": 0,
+        "approval": 0,
+        "sold": 0,
+        "billed": 0,
+        "total": 15,
+        "status": "Sem resultado",
+        "qtdContasOfertas": 25,
+        "qtdBundlesOfertados": 15
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -709,6 +728,7 @@
         "accepted": 0,
         "approval": 0,
         "sold": 0,
+        "billed": 0,
         "total": 0,
         "status": "Sem resultado",
         "qtdContasOfertas": 0,
@@ -720,13 +740,13 @@
         "accepted": 0,
         "approval": 0,
         "sold": 0,
+        "billed": 0,
         "total": 15,
         "status": "Sem resultado",
         "qtdContasOfertas": 14,
         "qtdBundlesOfertados": 15
       }
-    ],
-    "totalBilled": 1
+    ]
   },
   "_todosJulhoParaReferencia": [
     {
@@ -837,24 +857,24 @@
       {
         "vendedor": "Arthur Lodi",
         "qtdes": [
-          2,
+          3,
           1,
           3,
           6,
           0
         ],
-        "total": 12
+        "total": 13
       },
       {
         "vendedor": "Diego Bitencourt",
         "qtdes": [
-          2,
-          0,
+          1,
           0,
           1,
+          0,
           0
         ],
-        "total": 3
+        "total": 2
       },
       {
         "vendedor": "Eduardo Gomes",
@@ -872,8 +892,8 @@
         "qtdes": [
           9,
           0,
-          0,
-          3,
+          1,
+          2,
           2
         ],
         "total": 14
@@ -892,13 +912,13 @@
       {
         "vendedor": "Lara Roncetti",
         "qtdes": [
-          5,
+          6,
           1,
           3,
           0,
           1
         ],
-        "total": 10
+        "total": 11
       },
       {
         "vendedor": "Livia Ventorim",
